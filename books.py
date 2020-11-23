@@ -4,11 +4,14 @@ import argparse
 import collections
 
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from matplotlib import ticker
+import numpy as np
 import toml
 
 
 def get_styles():
-    return({"title_color": "#a68",
+    return({"title_color": "#a86",
             "heading_color": "grey",
             "font": {"fontname": "DejaVu Sans Mono"}})
 
@@ -18,10 +21,11 @@ def parse_catalog(input_filename):
 
 
 def print_catalog(catalog):
-    for book_idid, book in catalog["books"].items():
+    for i, b in enumerate(catalog["books"].items()):
+        book_id, book = b
         title = book["title"]
         author = book["author"] if type(book["author"]) == str else ', '.join(book["author"])
-        print(f"*{title}* by {author}")
+        print(f"{i+1}. *{title}* by {author}")
 
 
 def display_title(ax, catalog, styles, right=0.9, top=0.9):
@@ -34,18 +38,18 @@ def display_title(ax, catalog, styles, right=0.9, top=0.9):
             horizontalalignment="right", **styles["font"])
 
 
-def display_number(ax, catalog, styles, left=0.125, top=0.8):
+def display_number(ax, catalog, styles, left=0.15, top=0.85):
     n_books = len(catalog["books"])
     gap = 0.025
     ax.text(left, top, f"{n_books}",
             fontsize=100, fontweight="bold", color=styles["heading_color"],
             horizontalalignment="center", **styles["font"])
-    ax.text(left, top - gap, "books",
+    ax.text(left, top - gap, "total books",
             fontsize=18, color=styles["heading_color"],
             horizontalalignment="center", **styles["font"])
 
 
-def display_authors(ax, catalog, styles, n_authors=5, left=0.6, width=0.30, top=0.5):
+def display_authors(ax, catalog, styles, n_authors=10, left=0.575, width=0.325, top=0.5):
     authors = collections.Counter()
     for book_id, book in catalog["books"].items():
         if type(book["author"]) == str:
@@ -59,11 +63,66 @@ def display_authors(ax, catalog, styles, n_authors=5, left=0.6, width=0.30, top=
             fontsize=24, fontweight="bold",
             color=styles["heading_color"], **styles["font"])
     ax.text(left, top - gap,
-            "\n".join([a[0] for a in most_common_authors]),
+            "\n".join([f"{i+1:02d}. {a[0]}" for i, a in enumerate(most_common_authors)]),
             verticalalignment="top", **styles["font"])
     ax.text(left + width, top - gap,
             "\n".join([f"{a[1]}" for a in most_common_authors]),
             verticalalignment="top", horizontalalignment="right", **styles["font"])
+
+
+def display_timeline(fig, catalog, styles, left=0.1, width=0.65, top=0.1):
+    finished = [book[1]["finished"] for book in catalog["books"].items()]
+    finished = sorted(finished)
+
+    print(finished)
+
+
+def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, bottom=0.6, height=0.075):
+    attrs = collections.Counter()
+    for book_id, book in catalog["books"].items():
+        if type(book[attribute]) == str:
+            attrs.update([book[attribute]])
+        else:
+            attrs.update(book[attribute])
+
+    ax = plt.Axes(fig, [left, bottom, width, height])
+
+    cmap = plt.get_cmap("Dark2")#Pastel1")
+    n = len(attrs)
+    colors = cmap(np.arange(n) / n)
+    ax.bar(attrs.keys(), attrs.values(), color=colors)
+    for i, a in enumerate(attrs.values()):
+        ax.text(i, a, f"{a}",
+                horizontalalignment="center",
+                verticalalignment="bottom",
+                color="grey",
+                fontsize=6)
+
+    for tick in ax.get_xticklabels():
+        tick.set_horizontalalignment("right")
+        tick.set_rotation(45)
+    ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
+
+    fig.add_axes(ax)
+
+    for a in ["left", "right", "top"]:
+        ax.spines[a].set_visible(False)
+
+
+def display_genres(fig, catalog, styles, left=0.1, width=0.30, bottom=0.675, height=0.075):
+    display_barplot(fig, catalog, styles, "genres", left=left, width=width, bottom=bottom, height=height)
+
+
+def display_via(fig, catalog, styles, left=0.6, width=0.30, bottom=0.675, height=0.075):
+    display_barplot(fig, catalog, styles, "via", left=left, width=width, bottom=bottom, height=height)
+
+
+def display_media(fig, catalog, styles, left=0.1, width=0.15, bottom=0.40, height=0.125):
+    display_barplot(fig, catalog, styles, "media", left=left, width=width, bottom=bottom, height=height)
+
+
+def display_format(fig, catalog, styles, left=0.325, width=0.15, bottom=0.40, height=0.125):
+    display_barplot(fig, catalog, styles, "format", left=left, width=width, bottom=bottom, height=height)
 
 
 def render_infographic(catalog, output_filename):
@@ -74,15 +133,21 @@ def render_infographic(catalog, output_filename):
     fig = plt.figure(frameon=False)
     fig.set_size_inches(xsize, ysize)
 
-    ax = plt.Axes(fig, [0.0, 0.0, 1.0, 1.0])
-    ax.set_axis_off()
-    ax.xaxis.set_major_locator(plt.NullLocator())
-    ax.yaxis.set_major_locator(plt.NullLocator())
-    fig.add_axes(ax)
+    main_ax = plt.Axes(fig, [0.0, 0.0, 1.0, 1.0])
+    main_ax.set_axis_off()
+    main_ax.xaxis.set_major_locator(plt.NullLocator())
+    main_ax.yaxis.set_major_locator(plt.NullLocator())
+    fig.add_axes(main_ax)
 
-    display_title(ax, catalog, styles)
-    display_number(ax, catalog, styles)
-    display_authors(ax, catalog, styles)
+    display_title(main_ax, catalog, styles)
+    display_number(main_ax, catalog, styles)
+    display_authors(main_ax, catalog, styles)
+
+    display_genres(fig, catalog, styles)
+    display_via(fig, catalog, styles)
+    display_media(fig, catalog, styles)
+    display_format(fig, catalog, styles)
+    display_timeline(fig, catalog, styles)
 
     plt.savefig(output_filename)
 
