@@ -1,0 +1,107 @@
+[books.new-jim-crow]
+title = "The New Jim Crow"
+author = "Michelle Alexander"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-06-26
+media = "electronic"
+via = "Hoopla"
+
+[books.how-to]
+title = "How To"
+author = "Randall Munroe"
+format = "graphic"
+genres = ["humor", "nonfiction"]
+finished = 2020-01-08
+media = "paper"
+via = "own"
+
+[books.elephants-can-remember]
+title = "Elephants Can Remember"
+author = "Agatha Christie"
+format = "text"
+genres = ["mystery"]
+finished = 2020-02-04
+media = "paper"
+via = "Little Library"
+
+[books.essential-ultimate]
+title = "Essential Ultimate: Teaching, Coaching, Playing"
+author = ["Michael Baccarini", "Tiina Booth"]
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-02-23
+media = "paper"
+via = "own"
+
+[books.ancillary-justice]
+title = "Ancillary Justice"
+author = "Ann Leckie"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-03-03
+media = "electronic"
+via = "Libby"
+
+[books.remote]
+title = "Remote: Office Not Required"
+author = ["Jason Fried", "David Heinemeier Hansson"]
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-03-19
+media = "paper"
+via = "own"
+
+[books.ancillary-sword]
+title = "Ancillary Sword"
+author = "Ann Leckie"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-03-17
+media = "electronic"
+via = "Libby"
+
+[books.ancillary-mercy]
+title = "Ancillary Mercy"
+author = "Ann Leckie"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-03-30
+media = "electronic"
+via = "Libby"
+
+[books.radicalized]
+title = "Radicalized"
+author = "Cory Doctorow"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-04-16
+media = "electronic"
+via = "Libby"
+
+[books.keto-reset-diet]
+title = "The Keto Reset Diet: Reboot Your Metabolism in 21 Days and Burn Fat Forever"
+author = ["Mark Sisson", "Brad Kearns"]
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-04-20
+media = "electronic"
+via = "Libby"
+
+[books.take-control-of-working-from-home-temporarily]
+title = "Take Control of Working from Home Temporarily"
+author = ["Glenn Fleishman"]
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-04-12
+media = "electronic"
+via = "own"
+
+[books.data-and-goliath]
+title = "Data and Goliath"
+author = "Bruce Scheier"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-04-21
+media = "electronic"
+via = "own"
