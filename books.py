@@ -3,6 +3,7 @@
 import argparse
 import datetime
 import collections
+import math
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
@@ -28,6 +29,24 @@ def print_catalog(catalog):
         title = book["title"]
         author = book["author"] if type(book["author"]) == str else ', '.join(book["author"])
         print(f"{i+1}. *{title}* by {author}")
+
+
+def display_background(ax, catalog, styles):
+    text = []
+    for i, b in enumerate(catalog["books"].items()):
+        book_id, book = b
+        title = book["title"]
+        author = book["author"] if type(book["author"]) == str else ', '.join(book["author"])
+        text.append(f"{title} by {author}")
+
+    text = " • ".join(text)
+    lines = []
+    width = 70
+    for i in range(math.ceil(len(text) / width)):
+        lines.append(text[i*width:(i+1)*width])
+    text = "\n".join(lines)
+
+    ax.text(0.0, 0.0, text, fontsize=20, color="#f4f4f4")
 
 
 def display_title(ax, catalog, styles, right=0.9, top=0.9):
@@ -77,6 +96,7 @@ def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.1, heig
     finished = sorted(finished)
 
     ax = plt.Axes(fig, [left, bottom, width, height])
+    ax.set_facecolor("#ffffff00")
     ax.hist(finished, bins=365, range=(datetime.date(2020, 1, 1), datetime.date(2020, 12, 31)))
 
     months = mdates.MonthLocator()  # every month
@@ -105,6 +125,8 @@ def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, botto
             attrs.update(book[attribute])
 
     ax = plt.Axes(fig, [left, bottom, width, height])
+
+    ax.set_facecolor("#ffffff00")
 
     cmap = plt.get_cmap("Dark2")#Pastel1")
     n = len(attrs)
@@ -158,6 +180,7 @@ def render_infographic(catalog, output_filename):
     main_ax.yaxis.set_major_locator(plt.NullLocator())
     fig.add_axes(main_ax)
 
+    display_background(main_ax, catalog, styles)
     display_title(main_ax, catalog, styles)
     display_number(main_ax, catalog, styles)
     display_authors(main_ax, catalog, styles)
