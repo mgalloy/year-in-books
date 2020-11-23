@@ -4,7 +4,7 @@ author = "Michelle Alexander"
 format = "text"
 genres = ["nonfiction"]
 finished = 2020-06-26
-media = "electronic"
+media = "ebook"
 via = "Hoopla"
 
 [books.how-to]
@@ -40,7 +40,7 @@ author = "Ann Leckie"
 format = "text"
 genres = ["science fiction"]
 finished = 2020-03-03
-media = "electronic"
+media = "ebook"
 via = "Libby"
 
 [books.remote]
@@ -58,7 +58,7 @@ author = "Ann Leckie"
 format = "text"
 genres = ["science fiction"]
 finished = 2020-03-17
-media = "electronic"
+media = "ebook"
 via = "Libby"
 
 [books.ancillary-mercy]
@@ -67,7 +67,7 @@ author = "Ann Leckie"
 format = "text"
 genres = ["science fiction"]
 finished = 2020-03-30
-media = "electronic"
+media = "ebook"
 via = "Libby"
 
 [books.radicalized]
@@ -76,7 +76,7 @@ author = "Cory Doctorow"
 format = "text"
 genres = ["science fiction"]
 finished = 2020-04-16
-media = "electronic"
+media = "ebook"
 via = "Libby"
 
 [books.keto-reset-diet]
@@ -85,7 +85,7 @@ author = ["Mark Sisson", "Brad Kearns"]
 format = "text"
 genres = ["nonfiction"]
 finished = 2020-04-20
-media = "electronic"
+media = "ebook"
 via = "Libby"
 
 [books.take-control-of-working-from-home-temporarily]
@@ -94,7 +94,7 @@ author = ["Glenn Fleishman"]
 format = "text"
 genres = ["nonfiction"]
 finished = 2020-04-12
-media = "electronic"
+media = "ebook"
 via = "own"
 
 [books.data-and-goliath]
@@ -103,5 +103,365 @@ author = "Bruce Scheier"
 format = "text"
 genres = ["nonfiction"]
 finished = 2020-04-21
-media = "electronic"
+media = "ebook"
 via = "own"
+
+[books.by-the-pricking-of-my-thumns]
+title = "By the Pricking of My Thumbs"
+author = "Agatha Christie"
+format = "text"
+genres = ["mystery"]
+finished = 2020-04-22
+media = "paper"
+via = "Little Library"
+
+[books.terrorism-and-war]
+title = "Terrorism and War"
+author = "Howard Zinn"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-04-25
+media = "paper"
+via = "Little Library"
+
+[books.lock-in]
+title = "Lock In"
+author = "John Scalzi"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-04-27
+media = "paper"
+via = "Boulder Library"
+
+[books.head-on]
+title = "Head On"
+author = "John Scalzi"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-05-03
+media = "ebook"
+via = "Libby"
+
+[books.digital-minimalism]
+title = "Digital Minimalism: Choosing a Focused Life in a Noisy World"
+author = "Cal Newport"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-05-13
+media = "ebook"
+via = "Libby"
+
+[books.sorcerers-stone]
+title = "Harry Potter and the Sorcerer’s Stone"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-05-03
+media = "ebook"
+via = "Hoopla"
+
+[books.chamber-of-secrets]
+title = "Harry Potter and the Chamber of Secrets"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-05-06
+media = "paper"
+via = "own"
+
+[books.prisoner-of-azkaban]
+title = "Harry Potter and the Prisoner of Azkaban"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-05-11
+media = "paper"
+via = "own"
+
+[books.goblet-of-fire]
+title = "Harry Potter and the Goblet of Fire"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-05-17
+media = "audio"
+via = "Audible"
+
+[books.handmaids-tale]
+title = "The Handmaid’s Tale"
+author = "Margaret Atwood"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-05-18
+media = "ebook"
+via = "Libby"
+
+[books.testaments]
+title = "The Testaments"
+author = "Margaret Atwood"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-05-27
+media = "ebook"
+via = "Libby"
+
+[books.order-of-the-phoenix]
+title = "Harry Potter and the Order of the Phoenix"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-05-26
+media = "paper"
+via = "own"
+
+[books.enemy-of-all-mankind]
+title = "Enemy of All Mankind: A True Story of Piracy, Power, and History’s First Global Manhunt"
+author = "Stephen Johnson"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-06-09
+media = "ebook"
+via = "Libby"
+
+[books.half-blood-prince]
+title = "Harry Potter and the Half-Blood Prince"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-06-06
+media = "paper"
+via = "own"
+
+[books.drawing-on-the-right-side-of-the-brain]
+title = "Drawing on the Right Side of the Brain"
+author = "Betty Edwards"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-09-18
+media = "paper"
+via = "own"
+
+[books.deathly-hallows]
+title = "Harry Potter and the Deathly Hallows"
+author = "J.K. Rowling"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-06-13
+media = "paper"
+via = "own"
+
+[books.name-of-the-wind]
+title = "The Name of the Wind"
+author = "Patrick Rothfuss"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-08-08
+media = "paper"
+via = "borrowed"
+
+[books.crash-course]
+title = "Crash Course: If you want to get away with murder buy a car"
+author = "Woodrow Phoenix"
+format = "graphic"
+genres = ["nonfiction"]
+finished = 2020-08-14
+media = "paper"
+via = "own"
+
+[books.wise-mans-fear]
+title = "The Wise Man’s Fear"
+author = "Patrick Rothfuss"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-08-25
+media = "paper"
+via = "borrowed"
+
+[books.consider-phlebas]
+title = "Consider Phlebas"
+author = "Iain M. Banks"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-09-11
+media = "ebook"
+via = "Libby"
+
+[books.out-from-boneville]
+title = "Bone: Out from Boneville"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-09-13
+media = "paper"
+via = "Boulder Public Library"
+
+[books.great-cow-race]
+title = "Bone: The Great Cow Race"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-09-19
+media = "paper"
+via = "Boulder Public Library"
+
+[books.eyes-of-the-storm]
+title = "Bone: Eyes of the Storm"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-09-21
+media = "paper"
+via = "Boulder Public Library"
+
+[books.dragonslayer]
+title = "Bone: The Dragonslayer"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-09-23
+media = "paper"
+via = "Boulder Public Library"
+
+[books.rock-jaw]
+title = "Bone: Rock Jaw: The Master of the Eastern Border"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-09-24
+media = "paper"
+via = "Boulder Public Library"
+
+[books.old-mans-cave]
+title = "Bone: Old Man’s Cave"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-09-28
+media = "paper"
+via = "Boulder Public Library"
+
+[books.ghost-circles]
+title = "Bone: Ghost Circles"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-10-08
+media = "paper"
+via = "Boulder Public Library"
+
+[books.treasure-hunters]
+title = "Bone: Treasure Hunters"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-10-11
+media = "paper"
+via = "Boulder Public Library"
+
+[books.crown-of-horns]
+title = "Bone: Crown of Horns"
+author = "Jeff Smith"
+format = "graphic"
+genres = ["fantasy"]
+finished = 2020-10-12
+media = "paper"
+via = "Boulder Public Library"
+
+[books.slow-regard]
+title = "The Slow Regard of Silent Things"
+author = "Patrick Rothfuss"
+format = "text"
+genres = ["fantasy"]
+finished = 2020-09-15
+media = "ebook"
+via = "Libby"
+
+[books.caste]
+title = "Caste: The Origin of Our Discontents"
+author = "Isabel Wilkerson"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-10-06
+media = "ebook"
+via = "Libby"
+
+[books.no-surrender]
+title = "Skink — No Surrender!"
+author = "Carl Hiaasen"
+format = "text"
+genres = ["humor", "mystery"]
+finished = 2020-10-09
+media = "ebook"
+via = "Libby"
+
+[books.three-blind-mice]
+title = "Three Blind Mice and Other Stories"
+author = "Agatha Christie"
+format = "text"
+genres = ["mystery"]
+finished = 2020-10-15
+media = "paper"
+via = "Little Library"
+
+[books.exhalation]
+title = "Exhalation"
+author = "Ted Chiang"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-10-17
+media = "ebook"
+via = "Libby"
+
+[books.old-mans-war]
+title = "Old Man’s War"
+author = "John Scalzi"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-10-27
+media = "ebook"
+via = "Libby"
+
+[books.troubled-blood]
+title = "Troubled Blood"
+author = "Robert Galbraith"
+format = "text"
+genres = ["mystery"]
+finished = 2020-11-16
+media = "paper"
+via = "Boulder Public Library"
+
+[books.scott-pilgrim-1]
+title = "Scott Pilgrim: Volume 1"
+author = "Bryan Lee O’Malley"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-11-18
+media = "ebook"
+via = "Hoopla"
+
+[books.scott-pilgrim-2]
+title = "Scott Pilgrim: Volume 2"
+author = "Bryan Lee O’Malley"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-11-21
+media = "ebook"
+via = "Hoopla"
+
+[books.the-boys-omnibus-1]
+title = "The Boys Omnibus Volume 1"
+author = "Garth Ennis"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-11-05
+media = "ebook"
+via = "Hoopla"
+
+[books.the-boys-omnibus-2]
+title = "The Boys Omnibus Volume 2"
+author = "Garth Ennis"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-11-21
+media = "ebook"
+via = "Hoopla"
