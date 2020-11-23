@@ -131,7 +131,7 @@ format = "text"
 genres = ["science fiction"]
 finished = 2020-04-27
 media = "paper"
-via = "Boulder Library"
+via = "Boulder Public Library"
 
 [books.head-on]
 title = "Head On"
