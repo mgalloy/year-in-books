@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
 import argparse
+import datetime
 import collections
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
+import matplotlib.dates as mdates
 from matplotlib import ticker
 import numpy as np
 import toml
@@ -70,11 +72,28 @@ def display_authors(ax, catalog, styles, n_authors=10, left=0.575, width=0.325, 
             verticalalignment="top", horizontalalignment="right", **styles["font"])
 
 
-def display_timeline(fig, catalog, styles, left=0.1, width=0.65, top=0.1):
+def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.1, height=0.025):
     finished = [book[1]["finished"] for book in catalog["books"].items()]
     finished = sorted(finished)
 
-    print(finished)
+    ax = plt.Axes(fig, [left, bottom, width, height])
+    ax.hist(finished, bins=365, range=(datetime.date(2020, 1, 1), datetime.date(2020, 12, 31)))
+
+    months = mdates.MonthLocator()  # every month
+    days = mdates.DayLocator(interval=7)   # every day
+    months_fmt = mdates.DateFormatter("%b")
+    days_fmt = mdates.DateFormatter("%d")
+
+    ax.xaxis.set_major_locator(months)
+    ax.xaxis.set_major_formatter(months_fmt)
+    ax.xaxis.set_minor_locator(days)
+    #ax.xaxis.set_minor_formatter(days_fmt)
+    ax.set_xlabel("Reading timeline")
+    
+    fig.add_axes(ax)
+
+    for a in ["left", "right", "top"]:
+        ax.spines[a].set_visible(False)
 
 
 def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, bottom=0.6, height=0.075):
