@@ -465,3 +465,12 @@ genres = ["comic"]
 finished = 2020-11-21
 media = "ebook"
 via = "Hoopla"
+
+[books.maya-angelou]
+title = "The Complete Poetry of Maya Angelou"
+author = "Maya Angelou"
+format = "text"
+genres = ["poetry"]
+finished = 2020-11-29
+media = "paper"
+via = "own"
