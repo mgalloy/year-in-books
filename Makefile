@@ -1,8 +1,8 @@
-.PHONY: book clean
+.PHONY: all clean
 
-all: books
+all: 2020
 
-books: books-2020.pdf
+2020: books-2020.pdf
 
 clean:
 	rm -f *.pdf

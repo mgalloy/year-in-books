@@ -99,7 +99,7 @@ via = "own"
 
 [books.data-and-goliath]
 title = "Data and Goliath"
-author = "Bruce Scheier"
+author = "Bruce Schneier"
 format = "text"
 genres = ["nonfiction"]
 finished = 2020-04-21
