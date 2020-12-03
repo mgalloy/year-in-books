@@ -483,3 +483,12 @@ genres = ["nonfiction"]
 finished = 2020-11-29
 media = "ebook"
 via = "Libby"
+
+[books.the-boys-omnibus-3]
+title = "The Boys Omnibus Volume 2"
+author = "Garth Ennis"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-11-25
+media = "ebook"
+via = "Hoopla"
