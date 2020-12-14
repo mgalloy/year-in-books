@@ -485,10 +485,19 @@ media = "ebook"
 via = "Libby"
 
 [books.the-boys-omnibus-3]
-title = "The Boys Omnibus Volume 2"
+title = "The Boys Omnibus Volume 3"
 author = "Garth Ennis"
 format = "graphic"
 genres = ["comic"]
 finished = 2020-11-25
 media = "ebook"
 via = "Hoopla"
+
+[books.scott-pilgrim-3]
+title = "Scott Pilgrim: Volume 3"
+author = "Bryan Lee O’Malley"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-12-11
+media = "paper"
+via = "Boulder Public Library"
