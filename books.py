@@ -91,16 +91,82 @@ def display_authors(ax, catalog, styles, n_authors=10, left=0.575, width=0.325, 
             verticalalignment="top", horizontalalignment="right", **styles["font"])
 
 
-def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.1, height=0.025):
+def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.175, height=0.025):
     finished = [book[1]["finished"] for book in catalog["books"].items()]
     finished = sorted(finished)
 
+    year = int(finished[0].strftime("%Y"))
+
     ax = plt.Axes(fig, [left, bottom, width, height])
     ax.set_facecolor("#ffffff00")
-    ax.hist(finished, bins=365, range=(datetime.date(2020, 1, 1), datetime.date(2020, 12, 31)))
+    n, bins, patches = ax.hist(finished, bins=52,
+                               range=(datetime.date(year, 1, 1),
+                                      datetime.date(year, 12, 31)))
+
+    for i, b in zip(n, bins):
+        if i > 0:
+            ax.text(b + 3.5, i + 0.5, f"{i:.0f}",
+                    horizontalalignment="center",
+                    verticalalignment="bottom",
+                    color="grey",
+                    fontsize=6)
+
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%U"))
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO, interval=4))
+    ax.set_xlabel("By week")
+
+    ax.yaxis.set_major_locator(ticker.MultipleLocator(2))
+
+    fig.add_axes(ax)
+    
+    for a in ["left", "right", "top"]:
+        ax.spines[a].set_visible(False)
+
+
+def display_months_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.1, height=0.025):
+    finished = [book[1]["finished"] for book in catalog["books"].items()]
+    finished = sorted(finished)
+
+    year = int(finished[0].strftime("%Y"))
+
+    ax = plt.Axes(fig, [left, bottom, width, height])
+    ax.set_facecolor("#ffffff00")
+    n, bins, patches = ax.hist(finished, bins=12,
+                               range=(datetime.date(year, 1, 1),
+                                      datetime.date(year, 12, 31)))
+    for i, b in zip(n, bins):
+        if i > 0:
+            ax.text(b + 14.0, i + 0.5, f"{i:.0f}",
+                    horizontalalignment="center",
+                    verticalalignment="bottom",
+                    color="grey",
+                    fontsize=6)
+
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.set_xlabel("By month")
+
+    ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
+
+    fig.add_axes(ax)
+    
+    for a in ["left", "right", "top"]:
+        ax.spines[a].set_visible(False)
+
+
+def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.25, height=0.025):
+    finished = [book[1]["finished"] for book in catalog["books"].items()]
+    finished = sorted(finished)
+
+    year = int(finished[0].strftime("%Y"))
+
+    ax = plt.Axes(fig, [left, bottom, width, height])
+    ax.set_facecolor("#ffffff00")
+    ax.hist(finished, bins=365,
+            range=(datetime.date(year, 1, 1), datetime.date(year, 12, 31)))
 
     months = mdates.MonthLocator()  # every month
-    days = mdates.DayLocator(interval=7)   # every day
+    days = mdates.WeekdayLocator(byweekday=mdates.MO)   # every Monday
     months_fmt = mdates.DateFormatter("%b")
     days_fmt = mdates.DateFormatter("%d")
 
@@ -189,6 +255,9 @@ def render_infographic(catalog, output_filename):
     display_via(fig, catalog, styles)
     display_media(fig, catalog, styles)
     display_format(fig, catalog, styles)
+
+    display_weeks_histogram(fig, catalog, styles)
+    display_months_histogram(fig, catalog, styles)
     display_timeline(fig, catalog, styles)
 
     plt.savefig(output_filename)
