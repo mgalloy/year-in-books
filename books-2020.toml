@@ -493,6 +493,15 @@ finished = 2020-11-25
 media = "ebook"
 via = "Hoopla"
 
+[books.the-boys-omnibus-4]
+title = "The Boys Omnibus Volume 4"
+author = "Garth Ennis"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-12-06
+media = "ebook"
+via = "Hoopla"
+
 [books.scott-pilgrim-3]
 title = "Scott Pilgrim: Volume 3"
 author = "Bryan Lee O’Malley"
@@ -501,3 +510,12 @@ genres = ["comic"]
 finished = 2020-12-11
 media = "paper"
 via = "Boulder Public Library"
+
+[books.the-boys-omnibus-5]
+title = "The Boys Omnibus Volume 5"
+author = "Garth Ennis"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-12-15
+media = "ebook"
+via = "Hoopla"
