@@ -118,7 +118,7 @@ def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.
     ax.yaxis.set_major_locator(ticker.MultipleLocator(2))
 
     fig.add_axes(ax)
-    
+
     for a in ["left", "right", "top"]:
         ax.spines[a].set_visible(False)
 
@@ -149,7 +149,7 @@ def display_months_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0
     ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
 
     fig.add_axes(ax)
-    
+
     for a in ["left", "right", "top"]:
         ax.spines[a].set_visible(False)
 
@@ -175,7 +175,7 @@ def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.25, hei
     ax.xaxis.set_minor_locator(days)
     #ax.xaxis.set_minor_formatter(days_fmt)
     ax.set_xlabel("Reading timeline")
-    
+
     fig.add_axes(ax)
 
     for a in ["left", "right", "top"]:
