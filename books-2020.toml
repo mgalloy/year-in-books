@@ -519,3 +519,12 @@ genres = ["comic"]
 finished = 2020-12-15
 media = "ebook"
 via = "Hoopla"
+
+[books.the-boys-omnibus-6]
+title = "The Boys Omnibus Volume 6"
+author = "Garth Ennis"
+format = "graphic"
+genres = ["comic"]
+finished = 2020-12-16
+media = "ebook"
+via = "Hoopla"
