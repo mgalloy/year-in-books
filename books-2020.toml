@@ -6,6 +6,7 @@ genres = ["nonfiction"]
 finished = 2020-06-26
 media = "ebook"
 via = "Hoopla"
+grade = "A"
 
 [books.how-to]
 title = "How To"
@@ -15,6 +16,7 @@ genres = ["humor", "nonfiction"]
 finished = 2020-01-08
 media = "paper"
 via = "own"
+grade = "A"
 
 [books.elephants-can-remember]
 title = "Elephants Can Remember"
@@ -24,6 +26,7 @@ genres = ["mystery"]
 finished = 2020-02-04
 media = "paper"
 via = "Little Library"
+grade = "B-"
 
 [books.essential-ultimate]
 title = "Essential Ultimate: Teaching, Coaching, Playing"
@@ -33,6 +36,7 @@ genres = ["nonfiction"]
 finished = 2020-02-23
 media = "paper"
 via = "own"
+grade = "B"
 
 [books.ancillary-justice]
 title = "Ancillary Justice"
@@ -42,6 +46,7 @@ genres = ["science fiction"]
 finished = 2020-03-03
 media = "ebook"
 via = "Libby"
+grade = "A-"
 
 [books.remote]
 title = "Remote: Office Not Required"
@@ -51,6 +56,7 @@ genres = ["nonfiction"]
 finished = 2020-03-19
 media = "paper"
 via = "own"
+grade = "B+"
 
 [books.ancillary-sword]
 title = "Ancillary Sword"
@@ -60,6 +66,7 @@ genres = ["science fiction"]
 finished = 2020-03-17
 media = "ebook"
 via = "Libby"
+grade = "B+"
 
 [books.ancillary-mercy]
 title = "Ancillary Mercy"
@@ -69,6 +76,7 @@ genres = ["science fiction"]
 finished = 2020-03-30
 media = "ebook"
 via = "Libby"
+grade = "B+"
 
 [books.radicalized]
 title = "Radicalized"
@@ -78,6 +86,7 @@ genres = ["science fiction"]
 finished = 2020-04-16
 media = "ebook"
 via = "Libby"
+grade = "B"
 
 [books.keto-reset-diet]
 title = "The Keto Reset Diet: Reboot Your Metabolism in 21 Days and Burn Fat Forever"
@@ -87,6 +96,7 @@ genres = ["nonfiction"]
 finished = 2020-04-20
 media = "ebook"
 via = "Libby"
+grade = "A-"
 
 [books.take-control-of-working-from-home-temporarily]
 title = "Take Control of Working from Home Temporarily"
@@ -96,6 +106,7 @@ genres = ["nonfiction"]
 finished = 2020-04-12
 media = "ebook"
 via = "own"
+grade = "B-"
 
 [books.data-and-goliath]
 title = "Data and Goliath"
@@ -105,6 +116,7 @@ genres = ["nonfiction"]
 finished = 2020-04-21
 media = "ebook"
 via = "own"
+grade = "A-"
 
 [books.by-the-pricking-of-my-thumns]
 title = "By the Pricking of My Thumbs"
@@ -114,6 +126,7 @@ genres = ["mystery"]
 finished = 2020-04-22
 media = "paper"
 via = "Little Library"
+grade = "B+"
 
 [books.terrorism-and-war]
 title = "Terrorism and War"
@@ -123,6 +136,7 @@ genres = ["nonfiction"]
 finished = 2020-04-25
 media = "paper"
 via = "Little Library"
+grade = "B+"
 
 [books.lock-in]
 title = "Lock In"
@@ -132,6 +146,7 @@ genres = ["science fiction"]
 finished = 2020-04-27
 media = "paper"
 via = "Boulder Public Library"
+grade = "A-"
 
 [books.head-on]
 title = "Head On"
@@ -141,6 +156,7 @@ genres = ["science fiction"]
 finished = 2020-05-03
 media = "ebook"
 via = "Libby"
+grade = "B+"
 
 [books.digital-minimalism]
 title = "Digital Minimalism: Choosing a Focused Life in a Noisy World"
@@ -150,6 +166,7 @@ genres = ["nonfiction"]
 finished = 2020-05-13
 media = "ebook"
 via = "Libby"
+grade = "A-"
 
 [books.sorcerers-stone]
 title = "Harry Potter and the Sorcerer’s Stone"
@@ -159,6 +176,7 @@ genres = ["fantasy"]
 finished = 2020-05-03
 media = "ebook"
 via = "Hoopla"
+grade = "A"
 
 [books.chamber-of-secrets]
 title = "Harry Potter and the Chamber of Secrets"
@@ -168,6 +186,7 @@ genres = ["fantasy"]
 finished = 2020-05-06
 media = "paper"
 via = "own"
+grade = "A"
 
 [books.prisoner-of-azkaban]
 title = "Harry Potter and the Prisoner of Azkaban"
@@ -177,6 +196,7 @@ genres = ["fantasy"]
 finished = 2020-05-11
 media = "paper"
 via = "own"
+grade = "A"
 
 [books.goblet-of-fire]
 title = "Harry Potter and the Goblet of Fire"
@@ -186,6 +206,7 @@ genres = ["fantasy"]
 finished = 2020-05-17
 media = "audio"
 via = "Audible"
+grade = "A"
 
 [books.handmaids-tale]
 title = "The Handmaid’s Tale"
@@ -195,6 +216,7 @@ genres = ["science fiction"]
 finished = 2020-05-18
 media = "ebook"
 via = "Libby"
+grade = "A+"
 
 [books.testaments]
 title = "The Testaments"
@@ -204,6 +226,7 @@ genres = ["science fiction"]
 finished = 2020-05-27
 media = "ebook"
 via = "Libby"
+grade = "A-"
 
 [books.order-of-the-phoenix]
 title = "Harry Potter and the Order of the Phoenix"
@@ -213,6 +236,7 @@ genres = ["fantasy"]
 finished = 2020-05-26
 media = "paper"
 via = "own"
+grade = "A"
 
 [books.enemy-of-all-mankind]
 title = "Enemy of All Mankind: A True Story of Piracy, Power, and History’s First Global Manhunt"
@@ -222,6 +246,7 @@ genres = ["nonfiction"]
 finished = 2020-06-09
 media = "ebook"
 via = "Libby"
+grade = "B"
 
 [books.half-blood-prince]
 title = "Harry Potter and the Half-Blood Prince"
@@ -231,6 +256,7 @@ genres = ["fantasy"]
 finished = 2020-06-06
 media = "paper"
 via = "own"
+grade = "A"
 
 [books.drawing-on-the-right-side-of-the-brain]
 title = "Drawing on the Right Side of the Brain"
@@ -240,6 +266,7 @@ genres = ["nonfiction"]
 finished = 2020-09-18
 media = "paper"
 via = "own"
+grade = "A+"
 
 [books.deathly-hallows]
 title = "Harry Potter and the Deathly Hallows"
@@ -249,6 +276,7 @@ genres = ["fantasy"]
 finished = 2020-06-13
 media = "paper"
 via = "own"
+grade = "A"
 
 [books.name-of-the-wind]
 title = "The Name of the Wind"
@@ -258,6 +286,7 @@ genres = ["fantasy"]
 finished = 2020-08-08
 media = "paper"
 via = "borrowed"
+grade = "A+"
 
 [books.crash-course]
 title = "Crash Course: If you want to get away with murder buy a car"
@@ -267,6 +296,7 @@ genres = ["nonfiction"]
 finished = 2020-08-14
 media = "paper"
 via = "own"
+grade = "B"
 
 [books.wise-mans-fear]
 title = "The Wise Man’s Fear"
@@ -276,6 +306,7 @@ genres = ["fantasy"]
 finished = 2020-08-25
 media = "paper"
 via = "borrowed"
+grade = "A+"
 
 [books.consider-phlebas]
 title = "Consider Phlebas"
@@ -285,6 +316,7 @@ genres = ["science fiction"]
 finished = 2020-09-11
 media = "ebook"
 via = "Libby"
+grade = "C+"
 
 [books.out-from-boneville]
 title = "Bone: Out from Boneville"
@@ -294,6 +326,7 @@ genres = ["fantasy"]
 finished = 2020-09-13
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.great-cow-race]
 title = "Bone: The Great Cow Race"
@@ -303,6 +336,7 @@ genres = ["fantasy"]
 finished = 2020-09-19
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.eyes-of-the-storm]
 title = "Bone: Eyes of the Storm"
@@ -312,6 +346,7 @@ genres = ["fantasy"]
 finished = 2020-09-21
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.dragonslayer]
 title = "Bone: The Dragonslayer"
@@ -321,6 +356,7 @@ genres = ["fantasy"]
 finished = 2020-09-23
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.rock-jaw]
 title = "Bone: Rock Jaw: The Master of the Eastern Border"
@@ -330,6 +366,7 @@ genres = ["fantasy"]
 finished = 2020-09-24
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.old-mans-cave]
 title = "Bone: Old Man’s Cave"
@@ -339,6 +376,7 @@ genres = ["fantasy"]
 finished = 2020-09-28
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.ghost-circles]
 title = "Bone: Ghost Circles"
@@ -348,6 +386,7 @@ genres = ["fantasy"]
 finished = 2020-10-08
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.treasure-hunters]
 title = "Bone: Treasure Hunters"
@@ -357,6 +396,7 @@ genres = ["fantasy"]
 finished = 2020-10-11
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.crown-of-horns]
 title = "Bone: Crown of Horns"
@@ -366,6 +406,7 @@ genres = ["fantasy"]
 finished = 2020-10-12
 media = "paper"
 via = "Boulder Public Library"
+grade = "B"
 
 [books.slow-regard]
 title = "The Slow Regard of Silent Things"
@@ -375,6 +416,7 @@ genres = ["fantasy"]
 finished = 2020-09-15
 media = "ebook"
 via = "Libby"
+grade = "A"
 
 [books.caste]
 title = "Caste: The Origin of Our Discontents"
@@ -384,6 +426,7 @@ genres = ["nonfiction"]
 finished = 2020-10-06
 media = "ebook"
 via = "Libby"
+grade = "A+"
 
 [books.no-surrender]
 title = "Skink — No Surrender!"
@@ -393,6 +436,7 @@ genres = ["humor", "mystery"]
 finished = 2020-10-09
 media = "ebook"
 via = "Libby"
+grade = "A-"
 
 [books.three-blind-mice]
 title = "Three Blind Mice and Other Stories"
@@ -402,6 +446,7 @@ genres = ["mystery"]
 finished = 2020-10-15
 media = "paper"
 via = "Little Library"
+grade = "A-"
 
 [books.exhalation]
 title = "Exhalation"
@@ -411,6 +456,7 @@ genres = ["science fiction"]
 finished = 2020-10-17
 media = "ebook"
 via = "Libby"
+grade = "A+"
 
 [books.old-mans-war]
 title = "Old Man’s War"
@@ -420,6 +466,7 @@ genres = ["science fiction"]
 finished = 2020-10-27
 media = "ebook"
 via = "Libby"
+grade = "A-"
 
 [books.troubled-blood]
 title = "Troubled Blood"
@@ -429,6 +476,7 @@ genres = ["mystery"]
 finished = 2020-11-16
 media = "paper"
 via = "Boulder Public Library"
+grade = "B+"
 
 [books.scott-pilgrim-1]
 title = "Scott Pilgrim: Volume 1"
@@ -438,6 +486,7 @@ genres = ["comic"]
 finished = 2020-11-18
 media = "ebook"
 via = "Hoopla"
+grade = "A"
 
 [books.scott-pilgrim-2]
 title = "Scott Pilgrim: Volume 2"
@@ -447,6 +496,7 @@ genres = ["comic"]
 finished = 2020-11-21
 media = "ebook"
 via = "Hoopla"
+grade = "A"
 
 [books.the-boys-omnibus-1]
 title = "The Boys Omnibus Volume 1"
@@ -456,6 +506,7 @@ genres = ["comic"]
 finished = 2020-11-05
 media = "ebook"
 via = "Hoopla"
+grade = "B"
 
 [books.the-boys-omnibus-2]
 title = "The Boys Omnibus Volume 2"
@@ -465,6 +516,7 @@ genres = ["comic"]
 finished = 2020-11-21
 media = "ebook"
 via = "Hoopla"
+grade = "B"
 
 [books.maya-angelou]
 title = "The Complete Poetry of Maya Angelou"
@@ -474,6 +526,7 @@ genres = ["poetry"]
 finished = 2020-11-29
 media = "paper"
 via = "own"
+grade = "A-"
 
 [books.hillbilly-elegy]
 title = "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis"
@@ -483,6 +536,7 @@ genres = ["nonfiction"]
 finished = 2020-11-29
 media = "ebook"
 via = "Libby"
+grade = "B-"
 
 [books.the-boys-omnibus-3]
 title = "The Boys Omnibus Volume 3"
@@ -492,6 +546,7 @@ genres = ["comic"]
 finished = 2020-11-25
 media = "ebook"
 via = "Hoopla"
+grade = "B"
 
 [books.the-boys-omnibus-4]
 title = "The Boys Omnibus Volume 4"
@@ -501,6 +556,7 @@ genres = ["comic"]
 finished = 2020-12-06
 media = "ebook"
 via = "Hoopla"
+grade = "B"
 
 [books.scott-pilgrim-3]
 title = "Scott Pilgrim: Volume 3"
@@ -510,6 +566,7 @@ genres = ["comic"]
 finished = 2020-12-11
 media = "paper"
 via = "Boulder Public Library"
+grade = "A"
 
 [books.the-boys-omnibus-5]
 title = "The Boys Omnibus Volume 5"
@@ -519,6 +576,7 @@ genres = ["comic"]
 finished = 2020-12-15
 media = "ebook"
 via = "Hoopla"
+grade = "B+"
 
 [books.the-boys-omnibus-6]
 title = "The Boys Omnibus Volume 6"
@@ -528,6 +586,7 @@ genres = ["comic"]
 finished = 2020-12-16
 media = "ebook"
 via = "Hoopla"
+grade = "A-"
 
 [books.ifthen]
 title = "If Then: How the Simulmatics Corporation Invented the Future"
@@ -537,3 +596,4 @@ genres = ["nonfiction"]
 finished = 2020-12-27
 media = "ebook"
 via = "Libby"
+grade = "B"
