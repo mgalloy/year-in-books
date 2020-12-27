@@ -528,3 +528,12 @@ genres = ["comic"]
 finished = 2020-12-16
 media = "ebook"
 via = "Hoopla"
+
+[books.ifthen]
+title = "If Then: How the Simulmatics Corporation Invented the Future"
+author = "Jill Lepore"
+format = "text"
+genres = ["nonfiction"]
+finished = 2020-12-27
+media = "ebook"
+via = "Libby"
