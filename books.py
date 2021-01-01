@@ -182,6 +182,18 @@ def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.25, hei
         ax.spines[a].set_visible(False)
 
 
+def grade_key(grade_pair):
+    grade = grade_pair[0]
+    value = ord(grade[0].lower()) - ord("a")
+    value *= 10
+    if len(grade) > 1:
+        if grade[1] == "-":
+            value += 2
+        if grade[1] == "+":
+            value -= 2
+    return(value)
+
+
 def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, bottom=0.6, height=0.075):
     attrs = collections.Counter()
     for book_id, book in catalog["books"].items():
@@ -193,7 +205,8 @@ def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, botto
     ax = plt.Axes(fig, [left, bottom, width, height])
 
     ax.set_facecolor("#ffffff00")
-
+    if attribute == "grade":
+        attrs = {k: v for k, v in sorted(attrs.items(), key=grade_key, reverse=True)}
     cmap = plt.get_cmap("Dark2")#Pastel1")
     n = len(attrs)
     colors = cmap(np.arange(n) / n)
@@ -216,12 +229,16 @@ def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, botto
         ax.spines[a].set_visible(False)
 
 
-def display_genres(fig, catalog, styles, left=0.1, width=0.30, bottom=0.675, height=0.075):
+def display_genres(fig, catalog, styles, left=0.075, width=0.25, bottom=0.675, height=0.075):
     display_barplot(fig, catalog, styles, "genres", left=left, width=width, bottom=bottom, height=height)
 
 
-def display_via(fig, catalog, styles, left=0.6, width=0.30, bottom=0.675, height=0.075):
+def display_via(fig, catalog, styles, left=0.375, width=0.25, bottom=0.675, height=0.075):
     display_barplot(fig, catalog, styles, "via", left=left, width=width, bottom=bottom, height=height)
+
+
+def display_grades(fig, catalog, styles, left=0.675, width=0.25, bottom=0.675, height=0.075):
+    display_barplot(fig, catalog, styles, "grade", left=left, width=width, bottom=bottom, height=height)
 
 
 def display_media(fig, catalog, styles, left=0.1, width=0.15, bottom=0.40, height=0.125):
@@ -253,6 +270,7 @@ def render_infographic(catalog, output_filename):
 
     display_genres(fig, catalog, styles)
     display_via(fig, catalog, styles)
+    display_grades(fig, catalog, styles)
     display_media(fig, catalog, styles)
     display_format(fig, catalog, styles)
 
