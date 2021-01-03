@@ -1,0 +1,9 @@
+[books.ready-player-two]
+title = "Ready Player Two"
+author = "Ernest Cline"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-01-03
+media = "paper"
+via = "Boulder Public Library"
+grade = "B+"

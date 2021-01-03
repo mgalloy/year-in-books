@@ -31,7 +31,7 @@ def print_catalog(catalog):
         print(f"{i+1}. *{title}* by {author}")
 
 
-def display_background(ax, catalog, styles):
+def display_background(fig, ax, catalog, styles):
     text = []
     for i, b in enumerate(catalog["books"].items()):
         book_id, book = b
@@ -46,7 +46,11 @@ def display_background(ax, catalog, styles):
         lines.append(text[i*width:(i+1)*width])
     text = "\n".join(lines)
 
-    ax.text(0.0, 0.0, text, fontsize=20, color="#f4f4f4")
+    # TODO: should adjust fontsize that the text fills the background
+    t = ax.text(0.0, 0.0, text, fontsize=17, color="#f4f4f4")
+    # r = fig.canvas.get_renderer()
+    # bb = t.get_window_extent(renderer=r)
+    # height = bb.y1 / r.dpi
 
 
 def display_title(ax, catalog, styles, right=0.9, top=0.9):
@@ -263,7 +267,7 @@ def render_infographic(catalog, output_filename):
     main_ax.yaxis.set_major_locator(plt.NullLocator())
     fig.add_axes(main_ax)
 
-    display_background(main_ax, catalog, styles)
+    display_background(fig, main_ax, catalog, styles)
     display_title(main_ax, catalog, styles)
     display_number(main_ax, catalog, styles)
     display_authors(main_ax, catalog, styles)
