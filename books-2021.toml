@@ -7,3 +7,13 @@ finished = 2021-01-03
 media = "paper"
 via = "Boulder Public Library"
 grade = "B+"
+
+[books.forever-war]
+title = "Forever War"
+author = "Joe Haldeman"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-01-10
+media = "ebook"
+via = "Libby"
+grade = "B"
