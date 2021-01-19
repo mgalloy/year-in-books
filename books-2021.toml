@@ -17,3 +17,13 @@ finished = 2021-01-10
 media = "ebook"
 via = "Libby"
 grade = "B"
+
+[books.wonder-woman]
+title = "The Secret History of Wonder Woman"
+author = "Jill Lepore"
+format = "text"
+genres = ["non-iction"]
+finished = 2021-01-19
+media = "ebook"
+via = "Libby"
+grade = "B+"

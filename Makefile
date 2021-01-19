@@ -1,9 +1,9 @@
 .PHONY: all clean
 
-all: 2020 20201
+all: 2020 2021
 
 2020: books-2020.pdf
-20201: books-2021.pdf
+2021: books-2021.pdf
 
 clean:
 	rm -f *.pdf
