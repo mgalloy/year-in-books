@@ -27,3 +27,13 @@ finished = 2021-01-19
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.five-on-a-treasure-islan]
+title = "The Famous Five: Five on a Treasure Island"
+author = "Enid Blyton"
+format = "text"
+genres = ["childrens"]
+finished = 2021-01-03
+media = "paper"
+via = "borrowed"
+grade = "B"
