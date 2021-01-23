@@ -33,7 +33,17 @@ title = "The Famous Five: Five on a Treasure Island"
 author = "Enid Blyton"
 format = "text"
 genres = ["childrens"]
-finished = 2021-01-03
+finished = 2021-01-22
 media = "paper"
 via = "borrowed"
 grade = "B"
+
+[books.inktober]
+title = "Inktober All Year Long"
+author = "Jake Parker"
+format = "text"
+genres = ["childrens"]
+finished = 2021-01-23
+media = "paper"
+via = "own"
+grade = "B+"
