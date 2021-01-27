@@ -47,3 +47,13 @@ finished = 2021-01-23
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.lexicon]
+title = "Lexicon"
+author = "Max Barry"
+format = "text"
+genres = ["non-iction"]
+finished = 2021-01-26
+media = "ebook"
+via = "Libby"
+grade = "A-"
