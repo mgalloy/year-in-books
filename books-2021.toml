@@ -67,3 +67,13 @@ finished = 2021-02-06
 media = "paper"
 via = "own"
 grade = "B"
+
+[books.farmer-brown]
+title = "Farmer Brown"
+author = "Dave Closser and Brigit Galloy"
+format = "text"
+genres = ["childrens"]
+finished = 2021-02-21
+media = "paper"
+via = "own"
+grade = "C"
