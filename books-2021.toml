@@ -28,7 +28,7 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 
-[books.five-on-a-treasure-islan]
+[books.five-on-a-treasure-island]
 title = "The Famous Five: Five on a Treasure Island"
 author = "Enid Blyton"
 format = "text"
@@ -77,3 +77,13 @@ finished = 2021-02-21
 media = "paper"
 via = "own"
 grade = "C"
+
+[books.things-i-wish-id-known]
+title = "Things I Wish I'd Known: Cancer Caregivers Speak Out"
+author = "Deborah J. Cornwall"
+format = "text"
+genres = ["self-help"]
+finished = 2021-02-23
+media = "paper"
+via = "Boulder Public Library"
+grade = "B+"
