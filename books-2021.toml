@@ -87,3 +87,13 @@ finished = 2021-02-23
 media = "paper"
 via = "Boulder Public Library"
 grade = "B+"
+
+[books.righteous-mind]
+title = "The Righteous Mind: Why Good People Are Divided by Politics and Religion"
+author = "Jonathan Haidt"
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-02-28
+media = "ebook"
+via = "Libby"
+grade = "A-"
