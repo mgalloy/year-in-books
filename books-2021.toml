@@ -71,7 +71,7 @@ grade = "B"
 [books.farmer-brown]
 title = "Farmer Brown"
 author = ["Dave Closser", "Brigit Galloy"]
-format = "text"
+format = "graphic"
 genres = ["childrens"]
 finished = 2021-02-21
 media = "paper"
@@ -96,4 +96,14 @@ genres = ["non-fiction"]
 finished = 2021-02-28
 media = "ebook"
 via = "Libby"
+grade = "A-"
+
+[books.pen-ink-drawing]
+title = "Pen & Ink Drawing: A Simple Guide"
+author = "Alphonso Dunn"
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-03-19
+media = "paper"
+via = "own"
 grade = "A-"
