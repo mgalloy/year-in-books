@@ -107,3 +107,13 @@ finished = 2021-03-19
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.black-prism]
+title = "The Black Prism"
+author = "Brent Weeks"
+format = "text"
+genres = ["fantasy"]
+finished = 2021-03-31
+media = "paper"
+via = "own"
+grade = "B+"
