@@ -117,3 +117,13 @@ finished = 2021-03-31
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.naked-sun]
+title = "The Naked Sun"
+author = "Isaac Asimov"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-04-07
+media = "paper"
+via = "Boulder Public Library"
+grade = "B+"
