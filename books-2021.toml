@@ -147,3 +147,13 @@ finished = 2021-05-24
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.99-invisible-city]
+title = "The 99% Invisible City: A Field Guid to the Hidden World of Everyday Design"
+author = ["Roman Mars", "Kurt Kohlstedt"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-05-28
+media = "paper"
+via = "own"
+grade = "A"
