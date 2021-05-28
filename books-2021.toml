@@ -157,3 +157,13 @@ finished = 2021-05-28
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.modern-art]
+title = "Modern Art"
+author = "Hans Werner Holzwarth"
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-05-29
+media = "paper"
+via = "own"
+grade = "B"
