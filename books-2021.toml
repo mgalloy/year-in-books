@@ -167,3 +167,13 @@ finished = 2021-05-29
 media = "paper"
 via = "own"
 grade = "B"
+
+[books.why-art]
+title = "Why Art?"
+author = "Eleanor Davis"
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-05-30
+media = "paper"
+via = "own"
+grade = "C+"
