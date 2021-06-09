@@ -187,3 +187,13 @@ finished = 2021-05-31
 media = "paper"
 via = "Arvada Public Library"
 grade = "B"
+
+[books.distracted-mind]
+title = "The Distracted Mind: Ancient Brains in a High-Tech World"
+author = ["Adam Gazzaley", "Larry D. Rosen"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-06-09
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
