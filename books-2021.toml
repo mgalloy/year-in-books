@@ -207,3 +207,13 @@ finished = 2021-06-17
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.blood-mirror]
+title = "The Blood Mirror"
+author = "Brent Weeks"
+format = "text"
+genres = ["fantasy"]
+finished = 2021-07-04
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
