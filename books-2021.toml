@@ -217,3 +217,13 @@ finished = 2021-07-04
 media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
+
+[books.surveillance-capitalism]
+title = "How to Destroy 'Surveillance Capitalism'"
+author = "Cory Doctorow"
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-07-14
+media = "ebook"
+via = "web"
+grade = "A-"
