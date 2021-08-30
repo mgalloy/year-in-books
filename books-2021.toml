@@ -237,3 +237,13 @@ finished = 2021-08-10
 media = "paper"
 via = "Boulder Public Library"
 grade = "B"
+
+[books.project-hail-mary]
+title = "Project Hail Mary"
+author = "Andy Weir"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-08-30
+media = "ebook"
+via = "Libby"
+grade = "A-"
