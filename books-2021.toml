@@ -247,3 +247,13 @@ finished = 2021-08-30
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.suburban-nation]
+title = "Suburban Nation: Rise of Sprawl and the Decline of the American Dream"
+author = "Andres Duany, Elizabeth Plater-Zyberk, and Jeff Speck"
+format = "text"
+genres = ["non-fiction"]
+finished = 2021-09-06
+media = "paper"
+via = "Boulder Public Library"
+grade = "A"
