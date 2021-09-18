@@ -257,3 +257,13 @@ finished = 2021-09-06
 media = "paper"
 via = "Boulder Public Library"
 grade = "A"
+
+[books.station-eleven]
+title = "Station Eleven"
+author = "Emily St. John Mandel"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-09-18
+media = "ebook"
+via = "Libby"
+grade = "B+"
