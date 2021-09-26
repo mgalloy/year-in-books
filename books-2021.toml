@@ -267,3 +267,13 @@ finished = 2021-09-18
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.lightning-thief]
+title = "The Lightning Thief"
+author = "Rick Riordan"
+format = "text"
+genres = ["fantasy"]
+finished = 2021-09-25
+media = "paper"
+via = "borrowed"
+grade = "B-"
