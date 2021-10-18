@@ -277,3 +277,13 @@ finished = 2021-09-25
 media = "paper"
 via = "borrowed"
 grade = "B-"
+
+[books.the-dispossessed]
+title = "The Dispossessed"
+author = "Ursula K. Le Guin"
+format = "text"
+genres = ["science fiction"]
+finished = 2020-10-17
+media = "ebook"
+via = "Hoopla"
+grade = "A"
