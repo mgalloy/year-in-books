@@ -297,3 +297,13 @@ finished = 2021-11-05
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.dune]
+title = "Dune"
+author = "Frank Herbert"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-11-13
+media = "ebook"
+via = "Libby"
+grade = "A-"
