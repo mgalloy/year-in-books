@@ -141,10 +141,10 @@ grade = "B+"
 [books.broken-eye]
 title = "The Broken Eye"
 author = "Brent Weeks"
-format = "audio"
+format = "text"
 genres = ["fantasy"]
 finished = 2021-05-24
-media = "ebook"
+media = "audio"
 via = "Libby"
 grade = "A-"
 
