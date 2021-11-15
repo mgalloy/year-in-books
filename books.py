@@ -53,9 +53,9 @@ def display_background(fig, ax, catalog, styles):
     # height = bb.y1 / r.dpi
 
 
-def display_title(ax, catalog, styles, right=0.9, top=0.9):
+def display_title(ax, catalog, styles, year, right=0.9, top=0.9):
     gap = 0.025
-    ax.text(right, top, "Year in Books 2020",
+    ax.text(right, top, f"Year in Books {year}",
             fontsize=28, fontweight="bold", color=styles["title_color"],
             horizontalalignment="right", **styles["font"])
     ax.text(right, top - gap, "Michael Galloy",
@@ -95,11 +95,16 @@ def display_authors(ax, catalog, styles, n_authors=10, left=0.575, width=0.325, 
             verticalalignment="top", horizontalalignment="right", **styles["font"])
 
 
-def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.175, height=0.025):
+def get_finished(catalog):
     finished = [book[1]["finished"] for book in catalog["books"].items()]
     finished = sorted(finished)
 
     year = int(finished[0].strftime("%Y"))
+    return(year, finished)
+
+
+def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.175, height=0.025):
+    year, finished = get_finished(catalog)
 
     ax = plt.Axes(fig, [left, bottom, width, height])
     ax.set_facecolor("#ffffff00")
@@ -267,8 +272,9 @@ def render_infographic(catalog, output_filename):
     main_ax.yaxis.set_major_locator(plt.NullLocator())
     fig.add_axes(main_ax)
 
+    year, finished = get_finished(catalog)
     display_background(fig, main_ax, catalog, styles)
-    display_title(main_ax, catalog, styles)
+    display_title(main_ax, catalog, styles, year)
     display_number(main_ax, catalog, styles)
     display_authors(main_ax, catalog, styles)
 
