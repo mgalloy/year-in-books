@@ -307,3 +307,13 @@ finished = 2021-11-13
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-premonition]
+title = "The Premonition: A Pandemic Story"
+author = "Michael Lewis"
+format = "text"
+genres = ["nonfiction"]
+finished = 2021-11-25
+media = "ebook"
+via = "Libby"
+grade = "B-"
