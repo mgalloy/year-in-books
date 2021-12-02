@@ -327,3 +327,13 @@ finished = 2021-11-30
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.mine]
+title = "Mine! How the Hidden Rules of Ownership Control Our Lives"
+author = ["Michael Heller", "James Salzman"]
+format = "text"
+genres = ["nonfiction"]
+finished = 2021-12-02
+media = "ebook"
+via = "Libby"
+grade = "A"
