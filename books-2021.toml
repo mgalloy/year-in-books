@@ -347,3 +347,13 @@ finished = 2021-12-07
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.callahans-crosstime-saloon]
+title = "Callahan's Crosstime Saloon"
+author = "Spider Robinson"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-12-08
+media = "paper"
+via = "Little Library"
+grade = "B+"
