@@ -337,3 +337,13 @@ finished = 2021-12-02
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.beartown]
+title = "Beartown: A Novel"
+author = "Fredrik Backman"
+format = "text"
+genres = ["fiction"]
+finished = 2021-12-07
+media = "ebook"
+via = "Libby"
+grade = "A"
