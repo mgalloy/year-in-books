@@ -367,3 +367,13 @@ finished = 2021-12-12
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.the-power-of-ritual]
+title = "The Power of Ritual"
+author = "Casper tel Kuile"
+format = "text"
+genres = ["self-help"]
+finished = 2021-12-17
+media = "ebook"
+via = "Libby"
+grade = "B+"
