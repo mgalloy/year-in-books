@@ -377,3 +377,13 @@ finished = 2021-12-17
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.the-left-hand-of-darkness]
+title = "The Left Hand of Darkness"
+author = "Ursula K. Le Guin"
+format = "text"
+genres = ["self-help"]
+finished = 2021-12-22
+media = "ebook"
+via = "Libby"
+grade = "A"
