@@ -382,8 +382,18 @@ grade = "B+"
 title = "The Left Hand of Darkness"
 author = "Ursula K. Le Guin"
 format = "text"
-genres = ["self-help"]
+genres = ["science fiction"]
 finished = 2021-12-22
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-lady-astronaut-of-mars]
+title = "The Lady Astronaut of Mars"
+author = "Mary Robinette Kowal"
+format = "text"
+genres = ["science fiction"]
+finished = 2021-12-22
+media = "ebook"
+via = "own"
+grade = "A-"
