@@ -7,3 +7,13 @@ finished = 2022-01-06
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.bloodsucking-fiends]
+title = "Bloodsucking Fiends"
+author = "Christopher Moore"
+format = "text"
+genres = ["fiction"]
+finished = 2022-01-09
+media = "ebook"
+via = "Axis 360"
+grade = "B+"
