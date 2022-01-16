@@ -17,3 +17,13 @@ finished = 2022-01-09
 media = "ebook"
 via = "Axis 360"
 grade = "B+"
+
+[books.seeing-with-fresh-eyes]
+title = "Seeing With Fresh Eyes: Meaning - Space - Data - Truth"
+author = "Edward Tufte"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-01-16
+media = "paper"
+via = "own"
+grade = "B"
