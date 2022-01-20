@@ -27,3 +27,13 @@ finished = 2022-01-16
 media = "paper"
 via = "own"
 grade = "B"
+
+[books.constant-gardener]
+title = "The Constant Gardener"
+author = "John Le Carré"
+format = "text"
+genres = ["suspense"]
+finished = 2022-01-19
+media = "paper"
+via = "Little Library"
+grade = "B+"
