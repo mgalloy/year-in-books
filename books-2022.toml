@@ -37,3 +37,13 @@ finished = 2022-01-19
 media = "paper"
 via = "Little Library"
 grade = "B+"
+
+[books.you-suck]
+title = "You Suck"
+author = "Christopher Moore"
+format = "text"
+genres = ["fiction"]
+finished = 2022-01-25
+media = "ebook"
+via = "Axis 360"
+grade = "B+"
