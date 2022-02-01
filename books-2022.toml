@@ -47,3 +47,13 @@ finished = 2022-01-25
 media = "ebook"
 via = "Axis 360"
 grade = "B+"
+
+[books.bite-me]
+title = "Bite Me: A Love Story"
+author = "Christopher Moore"
+format = "text"
+genres = ["fiction"]
+finished = 2022-02-01
+media = "paper"
+via = "own"
+grade = "B"
