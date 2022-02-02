@@ -57,3 +57,13 @@ finished = 2022-02-01
 media = "paper"
 via = "own"
 grade = "B"
+
+[books.bobby-fishcer]
+title = "Bobby Fischer Teaches Chess"
+author = ["Bobby Fischer", "Stuart Margulies", "Donn Mosenfelder"]
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-02-02
+media = "paper"
+via = "own"
+grade = "B+"
