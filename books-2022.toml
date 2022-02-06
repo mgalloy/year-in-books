@@ -67,3 +67,13 @@ finished = 2022-02-02
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.the-plot]
+title = "The Plot"
+author = "Jean Hanff Korelitz"
+format = "text"
+genres = ["fiction"]
+finished = 2022-02-05
+media = "ebook"
+via = "Libby"
+grade = "A"
