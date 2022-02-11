@@ -77,3 +77,13 @@ finished = 2022-02-05
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.grimms-fairy-tales]
+title = "Grimm’s Fairy Tales"
+author = ["Jacob Grimm", "Wilhelm Grimm"]
+format = "text"
+genres = ["fiction"]
+finished = 2022-02-11
+media = "ebook"
+via = "Project Gutenberg"
+grade = "B-"
