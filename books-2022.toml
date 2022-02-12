@@ -87,3 +87,13 @@ finished = 2022-02-11
 media = "ebook"
 via = "Project Gutenberg"
 grade = "B-"
+
+[books.spymaster]
+title = "Spymaster"
+author = "Brad Thor"
+format = "text"
+genres = ["suspense"]
+finished = 2022-02-11
+media = "paper"
+via = "Little Library"
+grade = "C+"
