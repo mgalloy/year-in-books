@@ -97,3 +97,13 @@ finished = 2022-02-11
 media = "paper"
 via = "Little Library"
 grade = "C+"
+
+[books.us-against-you]
+title = "Us Against You"
+author = "Fredrik Backman"
+format = "text"
+genres = ["fiction"]
+finished = 2022-02-18
+media = "ebook"
+via = "Libby"
+grade = "A"
