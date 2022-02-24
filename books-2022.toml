@@ -107,3 +107,13 @@ finished = 2022-02-18
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.an-absolutely-remarkable-thing]
+title = "An Absolutely Remarkable Thing"
+author = "Hank Green"
+format = "text"
+genres = ["fiction"]
+finished = 2022-02-24
+media = "ebook"
+via = "Libby"
+grade = "A"
