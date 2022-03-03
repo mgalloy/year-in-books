@@ -117,3 +117,13 @@ finished = 2022-02-24
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.a-beautifully-foolish-endeavor]
+title = "A Beautifully Foolish Endeavor"
+author = "Hank Green"
+format = "text"
+genres = ["fiction"]
+finished = 2022-03-03
+media = "ebook"
+via = "Libby"
+grade = "A"
