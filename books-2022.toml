@@ -127,3 +127,13 @@ finished = 2022-03-03
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-explainers-guide-to-number-sets]
+title = "The Explainer’s Guide To Number Sets"
+author = "Ronald T. Kneusel"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-03-19
+media = "ebook"
+via = "author"
+grade = "B+"
