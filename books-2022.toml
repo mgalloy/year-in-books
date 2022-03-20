@@ -137,3 +137,13 @@ finished = 2022-03-19
 media = "ebook"
 via = "author"
 grade = "B+"
+
+[books.notes-of-a-native-son]
+title = "Notes of a Native Son"
+author = "James Baldwin"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-03-20
+media = "paper"
+via = "own"
+grade = "A-"
