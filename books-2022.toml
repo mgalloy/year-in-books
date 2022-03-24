@@ -147,3 +147,23 @@ finished = 2022-03-20
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.and-every-morning-the-way-home-gets-longer-and-longer]
+title = "And Every Morning the Way Home Gets Longer and Longer"
+author = "Fredrik Backman"
+format = "text"
+genres = ["fiction"]
+finished = 2022-03-22
+media = "ebook"
+via = "Libby"
+grade = "B"
+
+[books.all-systems-red]
+title = "All Systems Red (The Murderbot Diaries)"
+author = "Martha Wells"
+format = "text"
+genres = ["science fiction"]
+finished = 2022-03-24
+media = "ebook"
+via = "Libby"
+grade = "A"
