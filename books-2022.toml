@@ -177,3 +177,13 @@ finished = 2022-04-04
 media = "paper"
 via = "borrowed"
 grade = "B"
+
+[books.stories-of-your-life-and-others]
+title = "Stories of Your Life and Others"
+author = "Ted Chiang"
+format = "text"
+genres = ["science fiction"]
+finished = 2022-04-07
+media = "ebook"
+via = "Libby"
+grade = "A"
