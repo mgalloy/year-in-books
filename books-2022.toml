@@ -187,3 +187,13 @@ finished = 2022-04-07
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.these-truths]
+title = "These Truths: A History of the United States"
+author = "Jill Lepore"
+format = "text"
+genres = ["history"]
+finished = 2022-04-16
+media = "ebook"
+via = "Libby"
+grade = "B+"
