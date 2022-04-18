@@ -197,3 +197,13 @@ finished = 2022-04-16
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.accidental-prime-minister]
+title = "The Accidental Prime Minister"
+author = "Tom McLaughlin"
+format = "text"
+genres = ["childrens"]
+finished = 2022-04-17
+media = "paper"
+via = "borrowed"
+grade = "C"
