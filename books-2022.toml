@@ -159,7 +159,7 @@ via = "Libby"
 grade = "B"
 
 [books.all-systems-red]
-title = "All Systems Red (The Murderbot Diaries)"
+title = "All Systems Red (The Murderbot Diaries 1)"
 author = "Martha Wells"
 format = "text"
 genres = ["science fiction"]
@@ -207,3 +207,13 @@ finished = 2022-04-17
 media = "paper"
 via = "borrowed"
 grade = "C"
+
+[books.artificial-condition]
+title = "Artificial Condition (The Murderbot Diaries 2)"
+author = "Martha Wells"
+format = "text"
+genres = ["science fiction"]
+finished = 2022-04-19
+media = "ebook"
+via = "Libby"
+grade = "A"
