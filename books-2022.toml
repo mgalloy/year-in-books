@@ -217,3 +217,13 @@ finished = 2022-04-19
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-big-sleep]
+title = "The Big Sleep"
+author = "Raymond Chandler"
+format = "text"
+genres = ["detective"]
+finished = 2022-04-25
+media = "ebook"
+via = "Libby"
+grade = "B"
