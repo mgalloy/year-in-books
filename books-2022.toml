@@ -227,3 +227,13 @@ finished = 2022-04-25
 media = "ebook"
 via = "Libby"
 grade = "B"
+
+[books.the-artists-way]
+title = "The Artist's Way: A Spiritual Path to Higher Creativity"
+author = "Julia Cameron"
+format = "text"
+genres = ["self-help"]
+finished = 2022-04-29
+media = "paper"
+via = "own"
+grade = "A"
