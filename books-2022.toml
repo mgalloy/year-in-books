@@ -186,7 +186,7 @@ genres = ["science fiction"]
 finished = 2022-04-07
 media = "ebook"
 via = "Libby"
-grade = "A"
+grade = "A+"
 
 [books.these-truths]
 title = "These Truths: A History of the United States"
@@ -216,7 +216,7 @@ genres = ["science fiction"]
 finished = 2022-04-19
 media = "ebook"
 via = "Libby"
-grade = "A"
+grade = "A-"
 
 [books.the-big-sleep]
 title = "The Big Sleep"
