@@ -237,3 +237,13 @@ finished = 2022-04-29
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.the-pragmatic-programmer]
+title = "The Pragmatic Programmer: Your Journey to Mastery (20th Anniversary Edition)"
+author = ["David Thomas", "Andrew Hunt"]
+format = "text"
+genres = ["computer"]
+finished = 2022-05-06
+media = "paper"
+via = "own"
+grade = "A+"
