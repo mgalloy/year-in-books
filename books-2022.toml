@@ -247,3 +247,13 @@ finished = 2022-05-06
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.the-windup-girl]
+title = "The Windup Girl"
+author = "Paolo Bacigalupi"
+format = "text"
+genres = ["science fiction"]
+finished = 2022-05-13
+media = "ebook"
+via = "Libby"
+grade = "A+"
