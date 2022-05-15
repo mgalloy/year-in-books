@@ -257,3 +257,13 @@ finished = 2022-05-13
 media = "ebook"
 via = "Libby"
 grade = "A+"
+
+[books.the-book-of-accidents]
+title = "The Book of Accidents"
+author = "Chuck Wendig"
+format = "text"
+genres = ["horror"]
+finished = 2022-05-15
+media = "ebook"
+via = "Libby"
+grade = "B-"
