@@ -277,3 +277,13 @@ finished = 2022-05-17
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-thursday-murder-club]
+title = "The Thursday Murder Club"
+author = "Richard Osman"
+format = "text"
+genres = ["mystery"]
+finished = 2022-05-23
+media = "ebook"
+via = "Libby"
+grade = "A"
