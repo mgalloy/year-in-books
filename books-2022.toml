@@ -297,3 +297,13 @@ finished = 2022-06-04
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.midnight-riot]
+title = "Midnight Riot (Rivers of London #1)"
+author = "Ben Aaronvitch"
+format = "text"
+genres = ["mystery"]
+finished = 2022-06-04
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
