@@ -307,3 +307,13 @@ finished = 2022-06-04
 media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
+
+[books.the-overstory]
+title = "The Overstory"
+author = "Richard Powers"
+format = "text"
+genres = ["fiction"]
+finished = 2022-06-17
+media = "paper"
+via = "own"
+grade = "A+"
