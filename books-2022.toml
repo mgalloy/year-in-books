@@ -317,3 +317,13 @@ finished = 2022-06-17
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.exit-strategyl]
+title = "Exit Strategy (The Murderbot Diaries 4)"
+author = "Martha Wells"
+format = "text"
+genres = ["science fiction"]
+finished = 2022-06-20
+media = "ebook"
+via = "Libby"
+grade = "A"
