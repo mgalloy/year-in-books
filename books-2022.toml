@@ -327,3 +327,13 @@ finished = 2022-06-20
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-book]
+title = "The Book"
+author = "Alan W. Watts"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-06-21
+media = "paper"
+via = "own"
+grade = "A-"
