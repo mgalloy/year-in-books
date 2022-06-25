@@ -318,7 +318,7 @@ media = "paper"
 via = "own"
 grade = "A+"
 
-[books.exit-strategyl]
+[books.exit-strategy]
 title = "Exit Strategy (The Murderbot Diaries 4)"
 author = "Martha Wells"
 format = "text"
@@ -336,4 +336,14 @@ genres = ["nonfiction"]
 finished = 2022-06-21
 media = "paper"
 via = "own"
+grade = "A-"
+
+[books.the-man-who-died-twice]
+title = "The Man Who Died Twice (A Thursday Murder Club Mystery)"
+author = "Richard Osman"
+format = "text"
+genres = ["mystery"]
+finished = 2022-06-23
+media = "ebook"
+via = "Libby"
 grade = "A-"
