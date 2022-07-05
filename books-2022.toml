@@ -347,3 +347,13 @@ finished = 2022-06-23
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.network-effect]
+title = "Network Effect (The Murderbot Diaries 5)"
+author = "Martha Wells"
+format = "text"
+genres = ["science fiction"]
+finished = 2022-07-04
+media = "ebook"
+via = "Libby"
+grade = "A"
