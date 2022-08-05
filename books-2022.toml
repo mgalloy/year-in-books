@@ -387,3 +387,13 @@ finished = 2022-07-23
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.fast-kids-dont-train-slow]
+title = "Fast Kids Don't Train Slow"
+author = "Dunte Hector"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-08-04
+media = "paper"
+via = "own"
+grade = "B+"
