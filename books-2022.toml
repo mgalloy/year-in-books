@@ -397,3 +397,13 @@ finished = 2022-08-04
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.witness-for-the-dead]
+title = "Witness for the Dead"
+author = "Katherine Addison"
+format = "text"
+genres = ["fantasy"]
+finished = 2022-08-06
+media = "ebook"
+via = "Libby"
+grade = "A-"
