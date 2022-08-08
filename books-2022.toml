@@ -407,3 +407,13 @@ finished = 2022-08-06
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.mathematics-for-human-flourishing]
+title = "Mathematics for Human Flourishing"
+author = "Francis Su"
+format = "text"
+genres = ["mathematics"]
+finished = 2022-08-07
+media = "paper"
+via = "Boulder Public Library"
+grade = "A"
