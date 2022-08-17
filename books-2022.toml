@@ -417,3 +417,13 @@ finished = 2022-08-07
 media = "paper"
 via = "Boulder Public Library"
 grade = "A"
+
+[books.among-others]
+title = "Among Others"
+author = "Jo Walton"
+format = "text"
+genres = ["fantasy"]
+finished = 2022-08-16
+media = "ebook"
+via = "Libby"
+grade = "A"
