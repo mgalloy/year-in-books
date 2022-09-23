@@ -447,3 +447,13 @@ finished = 2022-09-22
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.bridge-to-terabithia]
+title = "Bridge to Terabithia"
+author = "Katherine Paterson"
+format = "text"
+genres = ["childrens"]
+finished = 2022-09-23
+media = "paper"
+via = "borrow"
+grade = "A"
