@@ -437,3 +437,13 @@ finished = 2022-08-29
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.what-if-2]
+title = "What If? 2"
+author = "Randall Munroe"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-09-22
+media = "paper"
+via = "own"
+grade = "A"
