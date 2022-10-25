@@ -455,5 +455,35 @@ format = "text"
 genres = ["childrens"]
 finished = 2022-09-23
 media = "paper"
-via = "borrow"
+via = "borrowed"
 grade = "A"
+
+[books.the-steerswoman]
+title = "The Steerswoman"
+author = "Rosemary Kirstein"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2022-10-10
+media = "ebook"
+via = "own"
+grade = "A-"
+
+[books.the-outskirters-secret]
+title = "The Outskirter’s Secret"
+author = "Rosemary Kirstein"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2022-10-13
+media = "ebook"
+via = "own"
+grade = "A-"
+
+[books.the-lost-steersman]
+title = "The Lost Steersman"
+author = "Rosemary Kirstein"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2022-10-22
+media = "ebook"
+via = "own"
+grade = "A-"
