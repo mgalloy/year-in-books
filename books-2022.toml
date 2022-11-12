@@ -497,3 +497,13 @@ finished = 2022-10-25
 media = "ebook"
 via = "own"
 grade = "A-"
+
+[books.ink-black-heart]
+title = "The Ink Black Heart"
+author = "Robert Galbraith"
+format = "text"
+genres = ["mystery"]
+finished = 2022-11-11
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
