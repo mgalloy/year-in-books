@@ -507,3 +507,13 @@ finished = 2022-11-11
 media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
+
+[books.bewilderment]
+title = "Bewilderment"
+author = "Richard Powers"
+format = "text"
+genres = ["fiction"]
+finished = 2022-11-19
+media = "paper"
+via = "own"
+grade = "A+"
