@@ -517,3 +517,13 @@ finished = 2022-11-19
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.look-look-look-look-look-again]
+title = "Look, Look, Look, Look, Look Again: Buddhist Wisdom Reflected in 26 Artists"
+author = "Kevin Thomas Townley, Jr."
+format = "text"
+genres = ["fiction"]
+finished = 2022-11-26
+media = "paper"
+via = "own"
+grade = "B-"
