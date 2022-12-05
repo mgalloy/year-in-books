@@ -527,3 +527,13 @@ finished = 2022-11-26
 media = "paper"
 via = "own"
 grade = "B-"
+
+[books.the-bullet-that-missed]
+title = "The Bullet That Missed (A Thursday Murder Club Mystery)"
+author = "Richard Osman"
+format = "text"
+genres = ["mystery"]
+finished = 2022-12-04
+media = "ebook"
+via = "own"
+grade = "A-"
