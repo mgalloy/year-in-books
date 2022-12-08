@@ -537,3 +537,13 @@ finished = 2022-12-04
 media = "ebook"
 via = "own"
 grade = "A-"
+
+[books.ultimate-the-greatest-sport-ever-invented-by-man]
+title = "Ultimate: The Greatest Sport Ever Invented by Man"
+author = "Pasquale Anthony Leonardo"
+format = "text"
+genres = ["nonfiction"]
+finished = 2022-12-07
+media = "ebook"
+via = "own"
+grade = "B"
