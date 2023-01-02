@@ -1,0 +1,9 @@
+[books.anthropica]
+title = "Anthropica"
+author = "David Hollander"
+format = "text"
+genres = ["fiction"]
+finished = 2023-01-01
+media = "paper"
+via = "own"
+grade = "B"

@@ -535,7 +535,7 @@ format = "text"
 genres = ["mystery"]
 finished = 2022-12-04
 media = "ebook"
-via = "own"
+via = "Libby"
 grade = "A-"
 
 [books.ultimate-the-greatest-sport-ever-invented-by-man]
@@ -544,6 +544,6 @@ author = "Pasquale Anthony Leonardo"
 format = "text"
 genres = ["nonfiction"]
 finished = 2022-12-07
-media = "ebook"
+media = "paper"
 via = "own"
 grade = "B"
