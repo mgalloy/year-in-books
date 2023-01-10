@@ -7,3 +7,13 @@ finished = 2023-01-01
 media = "paper"
 via = "own"
 grade = "B"
+
+[books.sixteen-ways-to-defend-a-walled-city]
+title = "Sixteen Ways to Defend a Walled City"
+author = "K. J. Parker"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-01-09
+media = "paper"
+via = "Boulder Public Library"
+grade = "A"
