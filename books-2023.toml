@@ -17,3 +17,13 @@ finished = 2023-01-09
 media = "paper"
 via = "Boulder Public Library"
 grade = "A"
+
+[books.the-echo-maker]
+title = "The Echo Maker"
+author = "Richard Powers"
+format = "text"
+genres = ["mystery"]
+finished = 2023-01-19
+media = "ebook"
+via = "Libby"
+grade = "A-"
