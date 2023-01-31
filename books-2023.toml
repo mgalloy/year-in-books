@@ -27,3 +27,13 @@ finished = 2023-01-19
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-winners]
+title = "The Winners"
+author = "Fredrik Backman"
+format = "text"
+genres = ["fiction"]
+finished = 2023-01-31
+media = "ebook"
+via = "own"
+grade = "A"
