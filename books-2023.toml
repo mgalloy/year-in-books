@@ -37,3 +37,13 @@ finished = 2023-01-31
 media = "ebook"
 via = "own"
 grade = "A"
+
+[books.critical-mass]
+title = "Critical Mass"
+author = "Daniel Suarez"
+format = "text"
+genres = ["science fiction"]
+finished = 2023-03-02
+media = "ebook"
+via = "own"
+grade = "B"
