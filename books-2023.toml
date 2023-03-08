@@ -47,3 +47,13 @@ finished = 2023-03-02
 media = "ebook"
 via = "own"
 grade = "B"
+
+[books.how-to-rule-an-empire]
+title = "How to Rule an Empire and Get Away with it"
+author = "K. J. Parker"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-03-07
+media = "paper"
+via = "Boulder Public Library"
+grade = "B+"
