@@ -57,3 +57,33 @@ finished = 2023-03-07
 media = "paper"
 via = "Boulder Public Library"
 grade = "B+"
+
+[books.the-blade-itself]
+title = "The Blade Itself"
+author = "Joe Abercrombie"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-03-22
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.zealot]
+title = "Zealot"
+author = "Reza Aslan"
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-03-24
+media = "ebook"
+via = "Libby"
+grade = "B+"
+
+[books.four-thousand-weeks]
+title = "Four Thousand Weeks"
+author = "Oliver Burkeman"
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-04-03
+media = "ebook"
+via = "Libby"
+grade = "B"
