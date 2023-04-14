@@ -87,3 +87,13 @@ finished = 2023-04-03
 media = "ebook"
 via = "Libby"
 grade = "B"
+
+[books.11-22-63]
+title = "11/22/63: A Novel"
+author = "Stephen King"
+format = "text"
+genres = ["science fiction"]
+finished = 2023-04-14
+media = "ebook"
+via = "Libby"
+grade = "A"
