@@ -107,3 +107,13 @@ finished = 2023-04-22
 media = "paper"
 via = "Jefferson County Public Library"
 grade = "A"
+
+[books.before-they-are-hanged]
+title = "Before They Are Hanged"
+author = "Joe Abercrombie"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-05-06
+media = "ebook"
+via = "Libby"
+grade = "A-"
