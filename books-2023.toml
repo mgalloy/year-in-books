@@ -127,3 +127,13 @@ finished = 2023-05-11
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.last-argument-of-kings]
+title = "Last Argument of Kings"
+author = "Joe Abercrombie"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-05-22
+media = "ebook"
+via = "Libby"
+grade = "A-"
