@@ -147,3 +147,13 @@ finished = 2023-04-22
 media = "paper"
 via = "Boulder Public Library"
 grade = "A"
+
+[books.best-served-cold]
+title = "Best Served Cold"
+author = "Joe Abercrombie"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-06-26
+media = "ebook"
+via = "Libby"
+grade = "B+"
