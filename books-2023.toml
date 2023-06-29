@@ -143,7 +143,7 @@ title = "Ther Are No Accidents"
 author = "Jessie Singer"
 format = "text"
 genres = ["non-fiction"]
-finished = 2023-04-22
+finished = 2023-05-22
 media = "paper"
 via = "Boulder Public Library"
 grade = "A"
@@ -154,6 +154,16 @@ author = "Joe Abercrombie"
 format = "text"
 genres = ["fantasy"]
 finished = 2023-06-26
+media = "ebook"
+via = "Libby"
+grade = "B+"
+
+[books.the-crossing-spaces]
+title = "The Crossing Spaces"
+author = "Elly Griffith"
+format = "text"
+genres = ["mystery"]
+finished = 2023-06-29
 media = "ebook"
 via = "Libby"
 grade = "B+"
