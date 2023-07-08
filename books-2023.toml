@@ -177,3 +177,13 @@ finished = 2023-07-02
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.yearning-for-the-impossible]
+title = "Yearning for the Impossible"
+author = ["John Stillwell"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-07-08
+media = "paper"
+via = "own"
+grade = "A-"
