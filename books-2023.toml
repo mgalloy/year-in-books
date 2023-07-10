@@ -187,3 +187,13 @@ finished = 2023-07-08
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.the-last-graduate]
+title = "The Last Graduate"
+author = "Naomi Novik"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-07-09
+media = "ebook"
+via = "Libby"
+grade = "A"
