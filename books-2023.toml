@@ -207,3 +207,13 @@ finished = 2023-07-07
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-heroes]
+title = "The Heroes"
+author = "Joe Abercrombie"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-08-06
+media = "ebook"
+via = "Libby"
+grade = "B+"
