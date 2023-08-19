@@ -227,3 +227,13 @@ finished = 2023-08-11
 media = "ebook"
 via = "own"
 grade = "C"
+
+[books.red-country]
+title = "Red Country"
+author = "Joe Abercrombie"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-08-19
+media = "ebook"
+via = "Libby"
+grade = "B"
