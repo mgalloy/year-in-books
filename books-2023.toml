@@ -222,7 +222,7 @@ grade = "B+"
 title = "The Book of Five Rings"
 author = "Miyamoto Musashi"
 format = "text"
-genres = ["non-ficton"]
+genres = ["non-fiction"]
 finished = 2023-08-11
 media = "ebook"
 via = "own"
@@ -257,3 +257,13 @@ finished = 2023-08-25
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.glucose-revolution]
+title = "Glucose Revolution"
+author = "Jessie Inchauspé"
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-09-10
+media = "paper"
+via = "Jefferson County Public Library"
+grade = "A"
