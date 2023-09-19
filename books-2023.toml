@@ -139,7 +139,7 @@ via = "Libby"
 grade = "A-"
 
 [books.there-are-no-accidents]
-title = "Ther Are No Accidents"
+title = "There Are No Accidents"
 author = "Jessie Singer"
 format = "text"
 genres = ["non-fiction"]

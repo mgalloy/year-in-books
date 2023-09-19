@@ -13,6 +13,21 @@ import numpy as np
 import toml
 
 
+HEADER = r"""\documentclass[8pt,letterpaper]{extarticle}
+
+\usepackage{geometry}
+\geometry{left=0.5in,top=0.5in,right=0.5in,bottom=0.5in} %margins
+\usepackage{graphicx}
+
+\begin{document}
+"""
+
+
+FOOTER = r"""
+\end{document}
+"""
+
+
 def get_styles():
     return({"title_color": "#a86",
             "heading_color": "grey",
@@ -297,14 +312,48 @@ def create_infographic(input_filename, output_filename):
     render_infographic(catalog, output_filename)
 
 
+def write_latex_list(catalog, output_filename):
+    year, finished = get_finished(catalog)
+    with open(output_filename, "w") as f:
+        f.write(HEADER)
+        title = f"Books read in {year}"
+        f.write(r"\section*{" + title + "}\n")
+        f.write(r"\begin{tabular}{lp{7cm}p{4cm}llll}" + "\n")
+        for i, b in enumerate(catalog["books"].items()):
+            book_id, book = b
+            title = book["title"]
+            title = title.replace("&", "\&")
+            title = title.replace("%", "\%")
+            title = title.replace("#", "\#")
+            title = "{\it " + title + "}"
+            author = book["author"] if type(book["author"]) == str else ', '.join(book["author"])
+            genres = book["genres"] if type(book["genres"]) == str else ', '.join(book["genres"])
+            media = book["media"]
+            finished = book["finished"]
+            grade = book["grade"]
+            f.write(f"{i+1} & {title} & {author} & {genres} & {media} & {finished} & {grade} \\\\\n")
+        f.write(r"\end{tabular}" + "\n")
+        f.write(FOOTER)
+
+
+def create_list(input_filename, output_filename):
+    catalog = parse_catalog(input_filename)
+    write_latex_list(catalog, output_filename)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Year in Books infographic")
     parser.add_argument("input_filename", help="input yaml filename")
     parser.add_argument("-o", "--output", help="output filename",
                         default="output.pdf")
+    parser.add_argument("-l", "--list", help="set to create list",
+                        action="store_true")
     args = parser.parse_args()
 
-    create_infographic(args.input_filename, args.output)
+    if args.list:
+        create_list(args.input_filename, args.output)
+    else:
+        create_infographic(args.input_filename, args.output)
 
 
 if __name__ == "__main__":
