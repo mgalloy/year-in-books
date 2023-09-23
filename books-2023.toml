@@ -277,3 +277,13 @@ finished = 2023-09-15
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.some-danger-involved]
+title = "Some Danger Involved"
+author = "Will Thomas"
+format = "text"
+genres = ["mystery"]
+finished = 2023-09-22
+media = "ebook"
+via = "Libby"
+grade = "A-"
