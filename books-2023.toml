@@ -287,3 +287,13 @@ finished = 2023-09-22
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-last-devil-to-die]
+title = "The Last Devil to Die"
+author = "Richard Osman"
+format = "text"
+genres = ["mystery"]
+finished = 2023-09-28
+media = "ebook"
+via = "Libby"
+grade = "A"
