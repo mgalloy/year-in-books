@@ -297,3 +297,13 @@ finished = 2023-09-28
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.redshirts]
+title = "Redshirts"
+author = "John Scalzi"
+format = "text"
+genres = ["science fiction"]
+finished = 2023-10-02
+media = "ebook"
+via = "Libby"
+grade = "B"
