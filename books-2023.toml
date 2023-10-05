@@ -307,3 +307,13 @@ finished = 2023-10-02
 media = "ebook"
 via = "Libby"
 grade = "B"
+
+[books.the-art-thief]
+title = "The Art Thief"
+author = "Michael Finkel"
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-10-05
+media = "ebook"
+via = "Libby"
+grade = "B+"
