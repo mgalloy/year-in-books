@@ -317,3 +317,13 @@ finished = 2023-10-05
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.the-100-year-old-man-who-climbed-out-the-window-and-disappeared]
+title = "The 100-Year-Old Man Who Climbed Out the Window and Disappeared"
+author = "Jonas Jonasson"
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-10-14
+media = "ebook"
+via = "Libby"
+grade = "B"
