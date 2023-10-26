@@ -347,3 +347,13 @@ finished = 2023-10-18
 media = "paper"
 via = "own"
 grade = "B-"
+
+[books.to-kingdom-come]
+title = "To Kingdom Come"
+author = "Will Thomas"
+format = "text"
+genres = ["mystery"]
+finished = 2023-10-25
+media = "ebook"
+via = "Libby"
+grade = "A-"
