@@ -357,3 +357,13 @@ finished = 2023-10-25
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.legends-and-lattes]
+title = "Legends & Lattes"
+author = "Travis Baldree"
+format = "text"
+genres = ["fantasy"]
+finished = 2023-10-31
+media = "ebook"
+via = "Libby"
+grade = "A-"
