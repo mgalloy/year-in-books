@@ -367,3 +367,13 @@ finished = 2023-10-31
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.tiny-habits]
+title = "Tiny Habits"
+author = "BJ Fogg"
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-11-10
+media = "ebook"
+via = "Libby"
+grade = "A+"
