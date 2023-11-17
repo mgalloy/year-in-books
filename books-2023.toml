@@ -377,3 +377,13 @@ finished = 2023-11-10
 media = "ebook"
 via = "Libby"
 grade = "A+"
+
+[books.the-running-grave]
+title = "The Running Grave"
+author = "Robert Galbraith"
+format = "text"
+genres = ["mystery"]
+finished = 2023-11-16
+media = "ebook"
+via = "Libby"
+grade = "A-"
