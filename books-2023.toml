@@ -397,3 +397,13 @@ finished = 2023-11-20
 media = "ebook"
 via = "own"
 grade = "B-"
+
+[books.the-narrow-road-between-desires]
+title = "The Narrow Road Between Desires"
+author = ["Patrick Rothfuss"]
+format = "text"
+genres = ["fantasy"]
+finished = 2023-11-21
+media = "paper"
+via = "own"
+grade = "A+"
