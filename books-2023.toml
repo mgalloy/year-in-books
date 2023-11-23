@@ -407,3 +407,13 @@ finished = 2023-11-21
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.the-software-developers-career-handbook]
+title = "The Software Developer's Career Handbook"
+author = ["Michael Lopp"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-11-23
+media = "paper"
+via = "own"
+grade = "B+"
