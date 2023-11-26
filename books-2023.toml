@@ -417,3 +417,13 @@ finished = 2023-11-23
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.the-limehouse-text]
+title = "The Limehouse Text"
+author = "Will Thomas"
+format = "text"
+genres = ["mystery"]
+finished = 2023-11-26
+media = "ebook"
+via = "Libby"
+grade = "A-"
