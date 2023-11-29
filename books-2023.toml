@@ -160,7 +160,7 @@ grade = "B+"
 
 [books.the-crossing-spaces]
 title = "The Crossing Spaces"
-author = "Elly Griffith"
+author = "Elly Griffiths"
 format = "text"
 genres = ["mystery"]
 finished = 2023-06-29
