@@ -437,3 +437,23 @@ finished = 2023-11-30
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.building-science-graphics]
+title = "Building Science Graphics"
+author = ["Jen Christiansen"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2023-12-03
+media = "paper"
+via = "own"
+grade = "B+"
+
+[books.the-black-hand]
+title = "The Black Hand"
+author = "Will Thomas"
+format = "text"
+genres = ["mystery"]
+finished = 2023-12-05
+media = "ebook"
+via = "Libby"
+grade = "A-"
