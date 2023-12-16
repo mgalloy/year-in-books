@@ -477,3 +477,13 @@ finished = 2023-12-14
 media = "paper"
 via = "Boulder Public Library"
 grade = "A+"
+
+[books.anatomy-of-evil]
+title = "Anatomy of Evil"
+author = "Will Thomas"
+format = "text"
+genres = ["mystery"]
+finished = 2023-12-15
+media = "ebook"
+via = "Libby"
+grade = "A-"
