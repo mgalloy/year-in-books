@@ -487,3 +487,23 @@ finished = 2023-12-15
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.system-collapse]
+title = "System Collapse"
+author = "Martha Wells"
+format = "text"
+genres = ["science fiction"]
+finished = 2023-12-19
+media = "ebook"
+via = "Libby"
+grade = "A"
+
+[books.a-wizards-guide-to-defensive-baking]
+title = "A Wizard's Guide to Defensive Baking"
+author = "T. Kingfisher"
+format = "text"
+genres = ["science fiction"]
+finished = 2023-12-24
+media = "ebook"
+via = "Libby"
+grade = "B+"
