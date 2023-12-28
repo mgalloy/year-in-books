@@ -502,8 +502,18 @@ grade = "A"
 title = "A Wizard's Guide to Defensive Baking"
 author = "T. Kingfisher"
 format = "text"
-genres = ["science fiction"]
+genres = ["fantasy"]
 finished = 2023-12-24
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.we-are-legion-we-are-bob]
+title = "We Are Legion (We Are Bob)"
+author = "Dennis E. Taylor"
+format = "text"
+genres = ["science fiction"]
+finished = 2023-12-28
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
