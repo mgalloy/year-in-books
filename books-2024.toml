@@ -1,0 +1,19 @@
+[books.going-infinite]
+title = "Going Infinite"
+author = "Michael Lewis"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-01-01
+media = "ebook"
+via = "Libby"
+grade = "B+"
+
+[books.dad-jokes]
+title = "Dad Jokes: The Good. The Bad. The Terrible."
+author = ["Jimmy Niro"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-01-01
+media = "paper"
+via = "own"
+grade = "B-"
