@@ -17,3 +17,23 @@ finished = 2024-01-01
 media = "paper"
 via = "own"
 grade = "B-"
+
+[books.the-spare-man]
+title = "The Spare Man"
+author = "Mary Robinette Kowal"
+format = "text"
+genres = ["fantasy"]
+finished = 2024-01-07
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.mae-volume-one]
+title = "Mae: Volume One"
+author = ["Gene Ha"]
+format = "text"
+genres = ["fantasy"]
+finished = 2024-01-05
+media = "paper"
+via = "own"
+grade = "B-"
