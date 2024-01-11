@@ -18,6 +18,16 @@ media = "paper"
 via = "own"
 grade = "B-"
 
+[books.mae-volume-one]
+title = "Mae: Volume One"
+author = ["Gene Ha"]
+format = "graphic"
+genres = ["fantasy"]
+finished = 2024-01-05
+media = "paper"
+via = "own"
+grade = "B-"
+
 [books.the-spare-man]
 title = "The Spare Man"
 author = "Mary Robinette Kowal"
@@ -28,12 +38,12 @@ media = "ebook"
 via = "Libby"
 grade = "A-"
 
-[books.mae-volume-one]
-title = "Mae: Volume One"
-author = ["Gene Ha"]
+[books.hell-bay]
+title = "Hell Bay"
+author = "Will Thomas"
 format = "text"
-genres = ["fantasy"]
-finished = 2024-01-05
-media = "paper"
-via = "own"
-grade = "B-"
+genres = ["mystery"]
+finished = 2024-01-11
+media = "ebook"
+via = "Libby"
+grade = "A-"
