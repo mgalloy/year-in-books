@@ -47,3 +47,13 @@ finished = 2024-01-11
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-murder-of-roger-ackroyd]
+title = "The Murder of Roger Ackroyd"
+author = "Agatha Christie"
+format = "text"
+genres = ["mystery"]
+finished = 2024-01-13
+media = "ebook"
+via = "Libby"
+grade = "A"
