@@ -57,3 +57,13 @@ finished = 2024-01-13
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.old-scores]
+title = "Old Scores"
+author = "Will Thomas"
+format = "text"
+genres = ["mystery"]
+finished = 2024-01-18
+media = "ebook"
+via = "Libby"
+grade = "A-"
