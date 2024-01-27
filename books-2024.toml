@@ -67,3 +67,13 @@ finished = 2024-01-18
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.bookshops-and-onedust]
+title = "Bookshops & Bonedust"
+author = "Travis Baldree"
+format = "text"
+genres = ["mystery"]
+finished = 2024-01-26
+media = "ebook"
+via = "Libby"
+grade = "B+"
