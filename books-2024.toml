@@ -72,8 +72,18 @@ grade = "A-"
 title = "Bookshops & Bonedust"
 author = "Travis Baldree"
 format = "text"
-genres = ["mystery"]
+genres = ["fantasy"]
 finished = 2024-01-26
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.thornhedge]
+title = "Thornhedge"
+author = "T. Kingfisher"
+format = "text"
+genres = ["fantasy"]
+finished = 2024-01-29
+media = "ebook"
+via = "Libby"
+grade = "A"
