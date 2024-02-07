@@ -87,3 +87,13 @@ finished = 2024-01-29
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.tomorrow-and-tomorrow-and-tomorrow]
+title = "Tomorrow, and Tomorrow, and Tomorrow"
+author = "Gabrielle Zevin"
+format = "text"
+genres = ["fiction"]
+finished = 2024-02-07
+media = "ebook"
+via = "Libby"
+grade = "A+"
