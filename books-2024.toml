@@ -107,3 +107,13 @@ finished = 2024-02-11
 media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
+
+[books.the-janus-stone]
+title = "The Janus Stone"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-02-12
+media = "ebook"
+via = "Libby"
+grade = "A-"
