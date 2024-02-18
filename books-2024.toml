@@ -117,3 +117,13 @@ finished = 2024-02-12
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.all-these-worlds]
+title = "All These Worlds"
+author = "Dennis E. Taylor"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-02-17
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
