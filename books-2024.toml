@@ -25,7 +25,7 @@ format = "graphic"
 genres = ["fantasy"]
 finished = 2024-01-05
 media = "paper"
-via = "own"
+via = "borrowed"
 grade = "B-"
 
 [books.the-spare-man]
@@ -127,3 +127,13 @@ finished = 2024-02-17
 media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
+
+[books.wild-fermentation]
+title = "Wild Fermentation"
+author = ["Sandor Ellix Katz"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-02-19
+media = "paper"
+via = "own"
+grade = "A"
