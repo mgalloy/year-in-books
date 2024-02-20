@@ -137,3 +137,13 @@ finished = 2024-02-19
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.you-feel-it-just-below-the-ribs]
+title = "You Feel It Just Below the Ribs"
+author = ["Jeffrey Cranor", "Janina Matthewson"]
+format = "text"
+genres = ["fiction"]
+finished = 2024-02-19
+media = "ebook"
+via = "Libby"
+grade = "A"
