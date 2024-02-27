@@ -147,3 +147,13 @@ finished = 2024-02-19
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.venomous-lumpsucker]
+title = "Venomous Lumpsucker"
+author = ["Ned Beauman"]
+format = "text"
+genres = ["fiction"]
+finished = 2024-02-26
+media = "ebook"
+via = "Libby"
+grade = "A"
