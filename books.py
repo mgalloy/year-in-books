@@ -15,6 +15,7 @@ import toml
 
 HEADER = r"""\documentclass[8pt,letterpaper]{extarticle}
 
+\usepackage{array}
 \usepackage{geometry}
 \geometry{left=0.5in,top=0.5in,right=0.5in,bottom=0.5in} %margins
 \usepackage{graphicx}
@@ -318,7 +319,7 @@ def write_latex_list(catalog, output_filename):
         f.write(HEADER)
         title = f"Books read in {year}"
         f.write(r"\section*{" + title + "}\n")
-        f.write(r"\begin{tabular}{lp{7cm}p{4cm}llll}" + "\n")
+        f.write(r"\begin{tabular}{l>{\raggedright}p{7cm}>{\raggedright}p{4cm}llll}" + "\n")
         for i, b in enumerate(catalog["books"].items()):
             book_id, book = b
             title = book["title"]
