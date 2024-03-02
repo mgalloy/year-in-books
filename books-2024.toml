@@ -157,3 +157,13 @@ finished = 2024-02-26
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.blood-is-blood]
+title = "Blood is Blood"
+author = ["Will Thomas"]
+format = "text"
+genres = ["mystery"]
+finished = 2024-03-01
+media = "ebook"
+via = "Libby"
+grade = "A-"
