@@ -121,26 +121,26 @@ def get_finished(catalog):
 
 def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.175, height=0.025):
     year, finished = get_finished(catalog)
+    weeks = [int(f.strftime("%W")) for f in finished]
 
     ax = plt.Axes(fig, [left, bottom, width, height])
     ax.set_facecolor("#ffffff00")
-    n, bins, patches = ax.hist(finished, bins=52,
-                               range=(datetime.date(year, 1, 1),
-                                      datetime.date(year, 12, 31)))
-
+    n_weeks = max([52, max(weeks)])
+    n, bins, patches = ax.hist(weeks, bins=n_weeks, range=(1, n_weeks))
     for i, b in zip(n, bins):
         if i > 0:
-            ax.text(b + 3.5, i + 0.5, f"{i:.0f}",
+            ax.text(b + 0.5, i + 0.5, f"{i:.0f}",
                     horizontalalignment="center",
                     verticalalignment="bottom",
                     color="grey",
                     fontsize=6)
 
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%U"))
-    ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO, interval=4))
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(4))
     ax.set_xlabel("By week")
 
     ax.yaxis.set_major_locator(ticker.MultipleLocator(2))
+
+    ax.yaxis.set_tick_params(labelsize="x-small")
 
     fig.add_axes(ax)
 
@@ -151,27 +151,36 @@ def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.
 def display_months_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.1, height=0.025):
     finished = [book[1]["finished"] for book in catalog["books"].items()]
     finished = sorted(finished)
+    months = [f.month for f in finished]
+
+    month_names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug",
+        "Sep", "Oct", "Nov", "Dec"]
 
     year = int(finished[0].strftime("%Y"))
 
     ax = plt.Axes(fig, [left, bottom, width, height])
     ax.set_facecolor("#ffffff00")
-    n, bins, patches = ax.hist(finished, bins=12,
-                               range=(datetime.date(year, 1, 1),
-                                      datetime.date(year, 12, 31)))
+    n, bins, patches = ax.hist(months, bins=12, range=[1, 12])
+    m = 0
     for i, b in zip(n, bins):
         if i > 0:
-            ax.text(b + 14.0, i + 0.5, f"{i:.0f}",
+            ax.text(b + 0.5, i + 0.5, f"{i:.0f}",
                     horizontalalignment="center",
                     verticalalignment="bottom",
                     color="grey",
                     fontsize=6)
+        if m < 12:
+            ax.text(b + 0.5, - 1.0, month_names[m],
+                    horizontalalignment="center",
+                    verticalalignment="top")
+        m += 1
 
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
-    ax.xaxis.set_major_locator(mdates.MonthLocator())
-    ax.set_xlabel("By month")
+    # ax.set_xlabel("By month")
 
+    ax.xaxis.set_major_locator(ticker.NullLocator())
     ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
+
+    ax.yaxis.set_tick_params(labelsize="x-small")
 
     fig.add_axes(ax)
 
@@ -201,6 +210,8 @@ def display_timeline(fig, catalog, styles, left=0.1, width=0.8, bottom=0.25, hei
     #ax.xaxis.set_minor_formatter(days_fmt)
     ax.set_xlabel("Reading timeline")
 
+    ax.yaxis.set_tick_params(labelsize="x-small")
+
     fig.add_axes(ax)
 
     for a in ["left", "right", "top"]:
@@ -219,7 +230,9 @@ def grade_key(grade_pair):
     return(value)
 
 
-def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, bottom=0.6, height=0.075):
+def display_barplot(fig, catalog, styles, attribute,
+                    left=0.1, width=0.30, bottom=0.6, height=0.075,
+                    use_colors=True):
     attrs = collections.Counter()
     for book_id, book in catalog["books"].items():
         if type(book[attribute]) == str:
@@ -232,10 +245,14 @@ def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, botto
     ax.set_facecolor("#ffffff00")
     if attribute == "grade":
         attrs = {k: v for k, v in sorted(attrs.items(), key=grade_key, reverse=True)}
-    cmap = plt.get_cmap("Dark2")#Pastel1")
-    n = len(attrs)
-    colors = cmap(np.arange(n) / n)
-    ax.bar(attrs.keys(), attrs.values(), color=colors)
+
+    if use_colors:
+        cmap = plt.get_cmap("Dark2")
+        n = len(attrs)
+        colors = cmap(np.arange(n) / n)
+        ax.bar(attrs.keys(), attrs.values(), color=colors)
+    else:
+        ax.bar(attrs.keys(), attrs.values())
     for i, a in enumerate(attrs.values()):
         ax.text(i, a, f"{a}",
                 horizontalalignment="center",
@@ -254,24 +271,34 @@ def display_barplot(fig, catalog, styles, attribute, left=0.1, width=0.30, botto
         ax.spines[a].set_visible(False)
 
 
-def display_genres(fig, catalog, styles, left=0.075, width=0.25, bottom=0.675, height=0.075):
-    display_barplot(fig, catalog, styles, "genres", left=left, width=width, bottom=bottom, height=height)
+def display_genres(fig, catalog, styles, left=0.075, width=0.25, bottom=0.675,
+                   height=0.075):
+    display_barplot(fig, catalog, styles, "genres", left=left, width=width,
+        bottom=bottom, height=height)
 
 
-def display_via(fig, catalog, styles, left=0.375, width=0.25, bottom=0.675, height=0.075):
-    display_barplot(fig, catalog, styles, "via", left=left, width=width, bottom=bottom, height=height)
+def display_via(fig, catalog, styles, left=0.375, width=0.25, bottom=0.675,
+                height=0.075):
+    display_barplot(fig, catalog, styles, "via", left=left, width=width,
+        bottom=bottom, height=height)
 
 
-def display_grades(fig, catalog, styles, left=0.675, width=0.25, bottom=0.675, height=0.075):
-    display_barplot(fig, catalog, styles, "grade", left=left, width=width, bottom=bottom, height=height)
+def display_grades(fig, catalog, styles, left=0.675, width=0.25, bottom=0.675,
+                   height=0.075):
+    display_barplot(fig, catalog, styles, "grade", left=left, width=width,
+        bottom=bottom, height=height, use_colors=False)
 
 
-def display_media(fig, catalog, styles, left=0.1, width=0.15, bottom=0.40, height=0.125):
-    display_barplot(fig, catalog, styles, "media", left=left, width=width, bottom=bottom, height=height)
+def display_media(fig, catalog, styles, left=0.1, width=0.15, bottom=0.40,
+                  height=0.125):
+    display_barplot(fig, catalog, styles, "media", left=left, width=width,
+        bottom=bottom, height=height)
 
 
-def display_format(fig, catalog, styles, left=0.325, width=0.15, bottom=0.40, height=0.125):
-    display_barplot(fig, catalog, styles, "format", left=left, width=width, bottom=bottom, height=height)
+def display_format(fig, catalog, styles, left=0.325, width=0.15, bottom=0.40,
+                   height=0.125):
+    display_barplot(fig, catalog, styles, "format", left=left, width=width,
+        bottom=bottom, height=height)
 
 
 def render_infographic(catalog, output_filename):
