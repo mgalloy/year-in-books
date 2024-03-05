@@ -167,3 +167,13 @@ finished = 2024-03-01
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.lethal-pursuit]
+title = "Lethal Pursuit"
+author = ["Will Thomas"]
+format = "text"
+genres = ["mystery"]
+finished = 2024-03-04
+media = "ebook"
+via = "Libby"
+grade = "A-"
