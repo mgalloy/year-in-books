@@ -187,3 +187,23 @@ finished = 2024-03-11
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.fierce-poison]
+title = "Fierce Poison"
+author = ["Will Thomas"]
+format = "text"
+genres = ["mystery"]
+finished = 2024-03-16
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.heart-of-the-nile]
+title = "Heart of the Nile"
+author = ["Will Thomas"]
+format = "text"
+genres = ["mystery"]
+finished = 2024-03-23
+media = "ebook"
+via = "Libby"
+grade = "A-"
