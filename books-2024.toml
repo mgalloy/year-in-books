@@ -207,3 +207,13 @@ finished = 2024-03-23
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.one-more-year]
+title = "One More Year"
+author = ["Megan Praz", "Meghan Kemp-Gee", "Allison Hu", "Richard Mercado"]
+format = "graphic"
+genres = ["fiction"]
+finished = 2024-04-02
+media = "paper"
+via = "own"
+grade = "A-"
