@@ -217,3 +217,13 @@ finished = 2024-04-02
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.heavens-river]
+title = "Heaven's River"
+author = ["Dennis E. Taylor"]
+format = "text"
+genres = ["science fiction"]
+finished = 2024-04-03
+media = "ebook"
+via = "own"
+grade = "A-"
