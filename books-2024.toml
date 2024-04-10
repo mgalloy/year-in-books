@@ -227,3 +227,13 @@ finished = 2024-04-03
 media = "ebook"
 via = "own"
 grade = "A-"
+
+[books.starter-villian]
+title = "Starter Villian"
+author = "John Scalzi"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-04-08
+media = "ebook"
+via = "Libby"
+grade = "A-"

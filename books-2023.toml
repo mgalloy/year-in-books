@@ -248,7 +248,7 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 
-[books.th-kaiju-preservation-society]
+[books.the-kaiju-preservation-society]
 title = "The Kaiju Preservation Society"
 author = "John Scalzi"
 format = "text"
