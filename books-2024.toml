@@ -237,3 +237,13 @@ finished = 2024-04-08
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-house-at-seas-end]
+title = "The House at Sea's End"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-04-11
+media = "ebook"
+via = "Libby"
+grade = "A-"
