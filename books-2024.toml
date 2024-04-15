@@ -247,3 +247,13 @@ finished = 2024-04-11
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-sun]
+title = "The Sun"
+author = "Ryan French"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-04-15
+media = "paper"
+via = "own"
+grade = "A-"
