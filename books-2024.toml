@@ -257,3 +257,13 @@ finished = 2024-04-15
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.a-room-full-of-bones]
+title = "A Room Full of Bones"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-04-15
+media = "ebook"
+via = "Libby"
+grade = "A-"
