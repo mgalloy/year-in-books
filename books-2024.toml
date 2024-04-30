@@ -267,3 +267,13 @@ finished = 2024-04-15
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.translation-state]
+title = "Translation State"
+author = "Ann Leckie"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-04-30
+media = "ebook"
+via = "Libby"
+grade = "A-"
