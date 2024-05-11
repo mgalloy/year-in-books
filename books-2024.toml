@@ -277,3 +277,13 @@ finished = 2024-04-30
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.a-dying-fall]
+title = "A Dying Fall"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-05-10
+media = "ebook"
+via = "Libby"
+grade = "A-"
