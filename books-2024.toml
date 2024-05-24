@@ -2,7 +2,7 @@
 title = "Going Infinite"
 author = "Michael Lewis"
 format = "text"
-genres = ["non-fiction"]
+genres = ["fiction"]
 finished = 2024-01-01
 media = "ebook"
 via = "Libby"
@@ -295,5 +295,15 @@ format = "text"
 genres = ["mystery"]
 finished = 2024-05-18
 media = "ebook"
-via = "Libby"
+via = "own"
 grade = "A-"
+
+[books.american-eclipse]
+title = "American Eclipse"
+author = "David Baron"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-05-24
+media = "ebook"
+via = "Libby"
+grade = "B"
