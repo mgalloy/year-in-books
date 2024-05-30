@@ -307,3 +307,13 @@ finished = 2024-05-24
 media = "ebook"
 via = "Libby"
 grade = "B"
+
+[books.death-and-glory]
+title = "Death and Glory"
+author = ["Will Thomas"]
+format = "text"
+genres = ["mystery"]
+finished = 2024-05-30
+media = "ebook"
+via = "Libby"
+grade = "A-"
