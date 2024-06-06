@@ -327,3 +327,23 @@ finished = 2024-06-02
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.the-outcast-dead]
+title = "The Outcast Dead"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-06-03
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.sea-of-tranquility]
+title = "Sea of Tranquility"
+author = "Emily St. John Mandel"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-06-05
+media = "ebook"
+via = "Libby"
+grade = "A"
