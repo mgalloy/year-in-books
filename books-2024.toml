@@ -357,3 +357,13 @@ finished = 2024-06-11
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-woman-in-blue-a-mystery]
+title = "The Woman in Blue: A Mystery"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-06-18
+media = "ebook"
+via = "Libby"
+grade = "A-"
