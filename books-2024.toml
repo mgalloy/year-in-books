@@ -367,3 +367,13 @@ finished = 2024-06-18
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.math-for-programming]
+title = "Math for Programming"
+author = "Ronald T. Kneusel"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-06-27
+media = "ebook"
+via = "author"
+grade = "A-"
