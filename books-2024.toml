@@ -377,3 +377,13 @@ finished = 2024-06-27
 media = "ebook"
 via = "author"
 grade = "A-"
+
+[books.blood-in-the-machine]
+title = "Blood in the Machine"
+author = "Brian Merchant"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-07-06
+media = "ebook"
+via = "Libby"
+grade = "B+"
