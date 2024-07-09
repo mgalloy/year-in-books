@@ -387,3 +387,13 @@ finished = 2024-07-06
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.democracy-or-else]
+title = "Democracy or Else"
+author = ["Jon Favreau", "Jon Lovett", "Tommy Vietor"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-07-08
+media = "paper"
+via = "own"
+grade = "C+"
