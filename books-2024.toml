@@ -397,3 +397,13 @@ finished = 2024-07-08
 media = "paper"
 via = "own"
 grade = "C+"
+
+[books.the-ministry-of-time]
+title = "The Ministry of Time"
+author = "Kaliane Bradley"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-07-14
+media = "ebook"
+via = "Libby"
+grade = "A"
