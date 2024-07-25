@@ -407,3 +407,23 @@ finished = 2024-07-14
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-chalk-pit]
+title = "The Chalk Pit"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-07-25
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.the-last-tree]
+title = "The Last Tree: A Seed of Hope"
+author = "Luke Adam Hawker"
+format = "graphic"
+genres = ["fiction"]
+finished = 2024-07-25
+media = "paper"
+via = "own"
+grade = "A+"
