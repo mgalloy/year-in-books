@@ -457,3 +457,13 @@ finished = 2024-08-06
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.king-solomons-mines]
+title = "King Solomon's Mines"
+author = "H. Rider Haggard"
+format = "text"
+genres = ["fiction"]
+finished = 2024-08-15
+media = "paper"
+via = "Boulder Public Library"
+grade = "C+"
