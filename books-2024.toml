@@ -467,3 +467,13 @@ finished = 2024-08-15
 media = "paper"
 via = "Boulder Public Library"
 grade = "C+"
+
+[books.the-peacock-and-the-sparrow]
+title = "The Peacock and the Sparrowl"
+author = "I.S. Berry"
+format = "text"
+genres = ["spy"]
+finished = 2024-08-19
+media = "ebook"
+via = "Libby"
+grade = "A"
