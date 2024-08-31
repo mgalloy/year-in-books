@@ -487,3 +487,13 @@ finished = 2024-08-29
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.play-on]
+title = "Play On"
+author = "Jeff Bercovici"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-08-30
+media = "paper"
+via = "own"
+grade = "A"
