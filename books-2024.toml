@@ -497,3 +497,13 @@ finished = 2024-08-30
 media = "paper"
 via = "own"
 grade = "B"
+
+[books.the-captain-class]
+title = "The Captain Class"
+author = "Sam Walker"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-09-07
+media = "paper"
+via = "own"
+grade = "A"
