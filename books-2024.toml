@@ -507,3 +507,13 @@ finished = 2024-09-07
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.au-japon]
+title = "Au Japon!"
+author = "Albert Kiefer"
+format = "graphic"
+genres = ["non-fiction"]
+finished = 2024-09-12
+media = "paper"
+via = "own"
+grade = "A"
