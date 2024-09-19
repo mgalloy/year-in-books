@@ -528,3 +528,13 @@ finished = 2024-09-14
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.atomic-habits]
+title = "Atomic Habits"
+author = "James Clear"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-09-19
+media = "paper"
+via = "own"
+grade = "A"
