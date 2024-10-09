@@ -548,3 +548,13 @@ finished = 2024-09-21
 media = "paper"
 via = "own"
 grade = "B+"
+
+[books.walkable-city]
+title = "Walkable City"
+author = "Jeff Speck"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-10-09
+media = "paper"
+via = "own"
+grade = "A+"
