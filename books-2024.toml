@@ -518,7 +518,6 @@ media = "paper"
 via = "own"
 grade = "A"
 
-
 [books.saevus-corax-deals-with-the-dead]
 title = "Saevus Corax Deals with the Dead"
 author = "K. J. Parker"
@@ -558,3 +557,13 @@ finished = 2024-10-09
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.the-adventures-of-amina-al-sirafi]
+title = "The Adventures of Amina al-Sirafi"
+author = "Shannon Chakraborty"
+format = "text"
+genres = ["fantasy"]
+finished = 2024-10-11
+media = "ebook"
+via = "Libby"
+grade = "A-"
