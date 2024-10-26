@@ -567,3 +567,23 @@ finished = 2024-10-11
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.saevus-corax-captures-the-castle]
+title = "Saevus Corax Captures the Castle"
+author = "K. J. Parker"
+format = "text"
+genres = ["fantasy"]
+finished = 2024-10-18
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.the-stone-circle]
+title = "The Stone Circle"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-10-23
+media = "ebook"
+via = "Libby"
+grade = "A-"
