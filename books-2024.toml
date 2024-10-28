@@ -587,3 +587,13 @@ finished = 2024-10-23
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-lantern-men]
+title = "The Lantern Men"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-10-27
+media = "ebook"
+via = "Libby"
+grade = "A-"
