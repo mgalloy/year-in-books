@@ -597,3 +597,13 @@ finished = 2024-10-27
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.children-of-time]
+title = "Children of Time"
+author = "Adrian Tchaikovsky"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-11-12
+media = "ebook"
+via = "Libby"
+grade = "A"
