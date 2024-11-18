@@ -607,3 +607,13 @@ finished = 2024-11-12
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.dune-messiah]
+title = "Dune Messiah"
+author = "Frank Herbert"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-11-18
+media = "ebook"
+via = "Libby"
+grade = "A"
