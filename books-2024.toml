@@ -617,3 +617,13 @@ finished = 2024-11-18
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.revenge-of-the-tipping-point]
+title = "Revenge of the Tipping Point"
+author = "Malcolm Gladwell"
+format = "text"
+genres = ["non-fiction"]
+finished = 2024-11-27
+media = "ebook"
+via = "Libby"
+grade = "B+"
