@@ -627,3 +627,13 @@ finished = 2024-11-27
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.we-solve-murders]
+title = "We Solve Murders"
+author = "Richard Osman"
+format = "text"
+genres = ["mystery"]
+finished = 2024-12-07
+media = "ebook"
+via = "Libby"
+grade = "A-"
