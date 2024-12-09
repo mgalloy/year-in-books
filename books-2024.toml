@@ -637,3 +637,13 @@ finished = 2024-12-07
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.saevus-corax-gets-away-with-murder]
+title = "Saevus Corax Gets Away with Murder"
+author = "K. J. Parker"
+format = "text"
+genres = ["fantasy"]
+finished = 2024-12-08
+media = "ebook"
+via = "Libby"
+grade = "A-"
