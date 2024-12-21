@@ -616,7 +616,7 @@ genres = ["science fiction"]
 finished = 2024-11-18
 media = "ebook"
 via = "Libby"
-grade = "A"
+grade = "A-"
 
 [books.revenge-of-the-tipping-point]
 title = "Revenge of the Tipping Point"
@@ -644,6 +644,16 @@ author = "K. J. Parker"
 format = "text"
 genres = ["fantasy"]
 finished = 2024-12-08
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.children-of-dune]
+title = "Children of Dune"
+author = "Frank Herbert"
+format = "text"
+genres = ["science fiction"]
+finished = 2024-12-20
 media = "ebook"
 via = "Libby"
 grade = "A-"
