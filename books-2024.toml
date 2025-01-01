@@ -657,3 +657,23 @@ finished = 2024-12-20
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-night-hawks]
+title = "The Night Hawks"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-12-24
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.the-locked-room]
+title = "The Locked Room"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2024-12-29
+media = "ebook"
+via = "Libby"
+grade = "A-"
