@@ -2,13 +2,14 @@
 
 LATEX=pdflatex
 
-all: 2020 2021 2022 2023 2024
+all: 2020 2021 2022 2023 2024 2025
 
 2020: books-2020.pdf books-list-2020.pdf
 2021: books-2021.pdf books-list-2021.pdf
 2022: books-2022.pdf books-list-2022.pdf
 2023: books-2023.pdf books-list-2023.pdf
 2024: books-2024.pdf books-list-2024.pdf
+2025: books-2025.pdf books-list-2025.pdf
 
 clean:
 	rm -f *.pdf
@@ -48,3 +49,9 @@ books-list-2024.pdf: books-2024.toml books.py
 	./books.py --list -o books-list-2024.tex books-2024.toml
 	$(LATEX) -halt-on-error books-list-2024.tex
 
+books-2025.pdf: books-2025.toml books.py
+	./books.py -o books-2025.pdf books-2025.toml
+
+books-list-2025.pdf: books-2025.toml books.py
+	./books.py --list -o books-list-2025.tex books-2025.toml
+	$(LATEX) -halt-on-error books-list-2025.tex

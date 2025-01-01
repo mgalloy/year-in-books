@@ -1,0 +1,9 @@
+[books.the-last-remains]
+title = "The Last Remains"
+author = "Elly Griffiths"
+format = "text"
+genres = ["mystery"]
+finished = 2025-01-01
+media = "ebook"
+via = "Libby"
+grade = "A-"
