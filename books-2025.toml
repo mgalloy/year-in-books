@@ -7,3 +7,13 @@ finished = 2025-01-01
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.stone-fruit]
+title = "Stone Fruit"
+author = "Lee Lai"
+format = "graphic"
+genres = ["fiction"]
+finished = 2025-01-01
+media = "paper"
+via = "Libby"
+grade = "A"
