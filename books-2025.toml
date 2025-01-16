@@ -15,5 +15,15 @@ format = "graphic"
 genres = ["fiction"]
 finished = 2025-01-01
 media = "paper"
+via = "own"
+grade = "A"
+
+[books.karlas-choice]
+title = "Karla's Choice"
+author = "Nick Harkaway"
+format = "text"
+genres = ["spy"]
+finished = 2025-01-14
+media = "papeebook"
 via = "Libby"
 grade = "A"
