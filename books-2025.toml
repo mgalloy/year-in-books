@@ -24,6 +24,16 @@ author = "Nick Harkaway"
 format = "text"
 genres = ["spy"]
 finished = 2025-01-14
-media = "papeebook"
+media = "paper"
 via = "Libby"
 grade = "A"
+
+[books.the-true-believer]
+title = "The True Believer"
+author = "Eric Hoffer"
+format = "text"
+genres = ["non-fiction"]
+finished = 2025-01-20
+media = "paper"
+via = "own"
+grade = "A+"
