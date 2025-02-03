@@ -37,3 +37,13 @@ finished = 2025-01-20
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.the-inner-game-of-tennis]
+title = "The Inner Game of Tennis"
+author = "W. Timothy Gallwey"
+format = "text"
+genres = ["non-fiction"]
+finished = 2025-02-02
+media = "paper"
+via = "own"
+grade = "A+"
