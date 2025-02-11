@@ -24,7 +24,7 @@ author = "Nick Harkaway"
 format = "text"
 genres = ["spy"]
 finished = 2025-01-14
-media = "paper"
+media = "ebook"
 via = "Libby"
 grade = "A"
 
@@ -47,3 +47,13 @@ finished = 2025-02-02
 media = "paper"
 via = "own"
 grade = "A+"
+
+[books.operation-wandering-soul]
+title = "Operation Wandering Soul"
+author = "Richard Powers"
+format = "text"
+genres = ["fiction"]
+finished = 2025-02-11
+media = "ebook"
+via = "Libby"
+grade = "B-"
