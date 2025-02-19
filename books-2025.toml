@@ -57,3 +57,13 @@ finished = 2025-02-11
 media = "ebook"
 via = "Libby"
 grade = "B-"
+
+[books.slough-horses]
+title = "Slough Horses"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-02-19
+media = "ebook"
+via = "Libby"
+grade = "A"
