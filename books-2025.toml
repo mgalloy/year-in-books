@@ -67,3 +67,13 @@ finished = 2025-02-19
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.dead-lions]
+title = "Dead Lions"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-02-25
+media = "ebook"
+via = "Libby"
+grade = "A"
