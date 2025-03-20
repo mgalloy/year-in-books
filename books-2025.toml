@@ -88,12 +88,22 @@ media = "paper"
 via = "own"
 grade = "C-"
 
-[books.three-body-problem]
+[books.the-three-body-problem]
 title = "The Three-Body Problem"
 author = "Cixin Liu"
 format = "text"
 genres = ["science fiction"]
 finished = 2025-03-11
+media = "ebook"
+via = "Libby"
+grade = "A"
+
+[books.the-dark-forest]
+title = "The Dark Forest"
+author = "Cixin Liu"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-03-20
 media = "ebook"
 via = "Libby"
 grade = "A"
