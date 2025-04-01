@@ -107,3 +107,13 @@ finished = 2025-03-20
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.deaths-end]
+title = "Death's End"
+author = "Cixin Liu"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-03-31
+media = "ebook"
+via = "Libby"
+grade = "A"
