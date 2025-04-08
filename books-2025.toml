@@ -106,7 +106,7 @@ genres = ["science fiction"]
 finished = 2025-03-20
 media = "ebook"
 via = "Libby"
-grade = "A"
+grade = "A-"
 
 [books.deaths-end]
 title = "Death's End"
@@ -116,4 +116,14 @@ genres = ["science fiction"]
 finished = 2025-03-31
 media = "ebook"
 via = "Libby"
-grade = "A"
+grade = "A-"
+
+[books.the-redemption-of-time]
+title = "The Redemption of Time"
+author = "Baoshu"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-04-07
+media = "ebook"
+via = "Libby"
+grade = "C-"
