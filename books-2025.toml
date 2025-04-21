@@ -127,3 +127,13 @@ finished = 2025-04-07
 media = "ebook"
 via = "Libby"
 grade = "C-"
+
+[books.the-fifth-season]
+title = "The Fifth Season"
+author = "N.K. Jemisin"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-04-20
+media = "ebook"
+via = "Libby"
+grade = "A"
