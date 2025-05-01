@@ -147,3 +147,13 @@ finished = 2025-04-26
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-obselisk-gate]
+title = "The Obelisk Gate"
+author = "N.K. Jemisin"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-05-01
+media = "ebook"
+via = "Libby"
+grade = "A"
