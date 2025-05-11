@@ -157,3 +157,13 @@ finished = 2025-05-01
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-stone-sky]
+title = "The Stone Sky"
+author = "N.K. Jemisin"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-05-11
+media = "ebook"
+via = "Libby"
+grade = "A"
