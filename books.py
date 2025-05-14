@@ -301,7 +301,7 @@ def display_format(fig, catalog, styles, left=0.325, width=0.15, bottom=0.40,
         bottom=bottom, height=height)
 
 
-def render_infographic(catalog, output_filename):
+def render_infographic(catalog, output_filename, background=False):
     styles = get_styles()
 
     xsize = 8.5   # inches
@@ -316,7 +316,8 @@ def render_infographic(catalog, output_filename):
     fig.add_axes(main_ax)
 
     year, finished = get_finished(catalog)
-    display_background(fig, main_ax, catalog, styles)
+    if background:
+        display_background(fig, main_ax, catalog, styles)
     display_title(main_ax, catalog, styles, year)
     display_number(main_ax, catalog, styles)
     display_authors(main_ax, catalog, styles)
@@ -334,10 +335,10 @@ def render_infographic(catalog, output_filename):
     plt.savefig(output_filename)
 
 
-def create_infographic(input_filename, output_filename):
+def create_infographic(input_filename, output_filename, background=False):
     catalog = parse_catalog(input_filename)
     print_catalog(catalog)
-    render_infographic(catalog, output_filename)
+    render_infographic(catalog, output_filename, background=background)
 
 
 def write_latex_list(catalog, output_filename):
@@ -372,16 +373,22 @@ def create_list(input_filename, output_filename):
 def main():
     parser = argparse.ArgumentParser(description="Year in Books infographic")
     parser.add_argument("input_filename", help="input yaml filename")
+    parser.add_argument("-b", "--background",
+        help="set to fill background with book list",
+        action="store_true")
     parser.add_argument("-o", "--output", help="output filename",
-                        default="output.pdf")
+        default="output.pdf")
     parser.add_argument("-l", "--list", help="set to create list",
-                        action="store_true")
+        action="store_true")
     args = parser.parse_args()
 
     if args.list:
         create_list(args.input_filename, args.output)
     else:
-        create_infographic(args.input_filename, args.output)
+        create_infographic(
+            args.input_filename,
+            args.output,
+            background=args.background)
 
 
 if __name__ == "__main__":
