@@ -167,3 +167,13 @@ finished = 2025-05-11
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.how-to-lie-with-maps]
+title = "How to Lie with Maps"
+author = "Mark Monmonier"
+format = "text"
+genres = ["non-fiction"]
+finished = 2025-05-22
+media = "paper"
+via = "own"
+grade = "A-"
