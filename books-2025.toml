@@ -177,3 +177,23 @@ finished = 2025-05-22
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.ball-lightning]
+title = "Ball Lightning"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-05-25
+media = "ebook"
+via = "Libby"
+grade = "B+"
+
+[books.real-tigers]
+title = "Real Tigers"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-06-04
+media = "ebook"
+via = "Libby"
+grade = "A"
