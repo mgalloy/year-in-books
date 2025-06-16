@@ -197,3 +197,13 @@ finished = 2025-06-04
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.spook-street]
+title = "Spook Street"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-06-16
+media = "ebook"
+via = "Libby"
+grade = "A"
