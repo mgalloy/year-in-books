@@ -207,3 +207,13 @@ finished = 2025-06-16
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.culture-code]
+title = "Culture Code"
+author = "Daniel Coyle"
+format = "text"
+genres = ["non-fiction"]
+finished = 2025-06-22
+media = "paper"
+via = "own"
+grade = "A+"
