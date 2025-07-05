@@ -227,3 +227,13 @@ finished = 2025-06-26
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.joe-country]
+title = "Joe Country"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-07-06
+media = "ebook"
+via = "Libby"
+grade = "A"
