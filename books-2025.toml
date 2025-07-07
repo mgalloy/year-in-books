@@ -58,8 +58,8 @@ media = "ebook"
 via = "Libby"
 grade = "B-"
 
-[books.slough-horses]
-title = "Slough Horses"
+[books.slow-horses]
+title = "Slow Horses"
 author = "Mick Herron"
 format = "text"
 genres = ["spy"]
@@ -180,9 +180,9 @@ grade = "A-"
 
 [books.ball-lightning]
 title = "Ball Lightning"
-author = "Mick Herron"
+author = "Liu Cixin"
 format = "text"
-genres = ["spy"]
+genres = ["science fiction"]
 finished = 2025-05-25
 media = "ebook"
 via = "Libby"
