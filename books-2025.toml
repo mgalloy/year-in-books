@@ -237,3 +237,13 @@ finished = 2025-07-06
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.a-psalm-for-the-wild-built]
+title = "A Psalm for the Wild-Built"
+author = "Becky Chambers"
+format = "text"
+genres = ["science fiction"]
+finished = 2025-07-08
+media = "ebook"
+via = "Libby"
+grade = "B-"
