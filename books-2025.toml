@@ -247,3 +247,13 @@ finished = 2025-07-08
 media = "ebook"
 via = "Libby"
 grade = "B-"
+
+[books.slough-house]
+title = "Slough House"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-07-15
+media = "ebook"
+via = "Libby"
+grade = "A"
