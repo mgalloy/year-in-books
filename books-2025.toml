@@ -257,3 +257,13 @@ finished = 2025-07-15
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.bad-actors]
+title = "Bad Actors"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-07-11
+media = "ebook"
+via = "Libby"
+grade = "A"
