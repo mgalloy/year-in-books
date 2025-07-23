@@ -267,3 +267,13 @@ finished = 2025-07-11
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.standing-by-the-wall]
+title = "Standing by the Wall"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-07-23
+media = "ebook"
+via = "Libby"
+grade = "A"
