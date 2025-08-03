@@ -277,3 +277,23 @@ finished = 2025-07-23
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-art-of-coaching-youth-ultimate]
+title = "The Art of Coaching Youth Ultimate"
+author = ["Ari Nitikman", "Danie Proby"]
+format = "text"
+genres = ["spy"]
+finished = 2025-07-23
+media = "paper"
+via = "own"
+grade = "C+"
+
+[books.playground]
+title = "Playground"
+author = "Richard Powers"
+format = "text"
+genres = ["fiction"]
+finished = 2025-08-02
+media = "ebook"
+via = "Libby"
+grade = "A"
