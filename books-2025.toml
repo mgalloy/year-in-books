@@ -297,3 +297,13 @@ finished = 2025-08-02
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.a-little-historyof-philosophy]
+title = "A Little History of Philosophy"
+author = "Nigel Warburton"
+format = "text"
+genres = ["spy"]
+finished = 2025-08-23
+media = "paper"
+via = "own"
+grade = "A-"
