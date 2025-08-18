@@ -307,3 +307,23 @@ finished = 2025-08-23
 media = "paper"
 via = "own"
 grade = "A-"
+
+[books.the-secret-hours]
+title = "The Secret Hours"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-08-13
+media = "ebook"
+via = "Libby"
+grade = "A"
+
+[books.the-screwtape-letters]
+title = "The Screwtape Letters"
+author = "C.S. Lewis"
+format = "text"
+genres = ["fiction"]
+finished = 2025-08-18
+media = "ebook"
+via = "Libby"
+grade = "B-"
