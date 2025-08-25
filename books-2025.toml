@@ -327,3 +327,13 @@ finished = 2025-08-18
 media = "ebook"
 via = "Libby"
 grade = "B-"
+
+[books.the-unbearable-lightness-of-being]
+title = "The Unbearable Lightness of Being"
+author = "Milan Kundera"
+format = "text"
+genres = ["fiction"]
+finished = 2025-08-25
+media = "ebook"
+via = "Libby"
+grade = "A"
