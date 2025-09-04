@@ -347,3 +347,13 @@ finished = 2025-09-01
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.nobody-walks]
+title = "Nobody Walks"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-09-04
+media = "ebook"
+via = "Libby"
+grade = "A"
