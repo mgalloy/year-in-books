@@ -357,3 +357,13 @@ finished = 2025-09-04
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.the-hallmarked-man]
+title = "The Hallmarked Mman"
+author = "Robert Galbraith"
+format = "text"
+genres = ["mystery"]
+finished = 2025-09-22
+media = "ebook"
+via = "Libby"
+grade = "B"
