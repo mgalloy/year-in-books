@@ -377,3 +377,13 @@ finished = 2025-09-29
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.the-secret-of-secrets]
+title = "The Secret of Secrets"
+author = "Dan Brown"
+format = "text"
+genres = ["fiction"]
+finished = 2025-10-08
+media = "ebook"
+via = "Libby"
+grade = "B-"
