@@ -387,3 +387,13 @@ finished = 2025-10-08
 media = "ebook"
 via = "Libby"
 grade = "B-"
+
+[books.clown-town]
+title = "Clown Town"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2025-10-15
+media = "ebook"
+via = "Libby"
+grade = "A"
