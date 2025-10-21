@@ -397,3 +397,23 @@ finished = 2025-10-15
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.pronoun-trouble]
+title = "Pronoun Trouble"
+author = "John McWhorter"
+format = "text"
+genres = ["non-ficton"]
+finished = 2025-10-20
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.poyums]
+title = "poyums"
+author = "Len Pennie"
+format = "text"
+genres = ["poetry"]
+finished = 2025-10-20
+media = "paper"
+via = "own"
+grade = "A"
