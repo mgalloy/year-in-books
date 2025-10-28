@@ -417,3 +417,23 @@ finished = 2025-10-20
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.firefly]
+title = "Firefly"
+author = "Luke Adam Hawker"
+format = "graphic"
+genres = ["fiction"]
+finished = 2025-10-22
+media = "paper"
+via = "own"
+grade = "A"
+
+[books.the-impossible-fortune]
+title = "The Impossible Fortune"
+author = "Richard Osman"
+format = "text"
+genres = ["mystery"]
+finished = 2025-10-27
+media = "ebook"
+via = "Libby"
+grade = "A-"
