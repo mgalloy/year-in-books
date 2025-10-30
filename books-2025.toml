@@ -437,3 +437,13 @@ finished = 2025-10-27
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.finite-and-infinite-games]
+title = "Finite and Infinite Games"
+author = "James P. Carse"
+format = "text"
+genres = ["philosophy"]
+finished = 2025-10-28
+media = "paper"
+via = "own"
+grade = "A+"
