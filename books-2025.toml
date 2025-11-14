@@ -457,3 +457,13 @@ finished = 2025-10-31
 media = "ebook"
 via = "Libby"
 grade = "B+"
+
+[books.queen-demon]
+title = "Queen Demon"
+author = "Martha Wells"
+format = "text"
+genres = ["fantasy"]
+finished = 2025-11-14
+media = "ebook"
+via = "Libby"
+grade = "A"

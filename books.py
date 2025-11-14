@@ -351,10 +351,10 @@ def write_latex_list(catalog, output_filename):
         for i, b in enumerate(catalog["books"].items()):
             book_id, book = b
             title = book["title"]
-            title = title.replace("&", "\&")
-            title = title.replace("%", "\%")
-            title = title.replace("#", "\#")
-            title = "{\it " + title + "}"
+            title = title.replace("&", r"\&")
+            title = title.replace("%", r"\%")
+            title = title.replace("#", r"\#")
+            title = r"{\it " + title + "}"
             author = book["author"] if type(book["author"]) == str else ', '.join(book["author"])
             genres = book["genres"] if type(book["genres"]) == str else ', '.join(book["genres"])
             media = book["media"]
