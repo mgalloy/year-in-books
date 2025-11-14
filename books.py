@@ -97,7 +97,15 @@ def display_authors(ax, catalog, styles, n_authors=10, left=0.575, width=0.325, 
             authors.update([book["author"]])
         else:
             authors.update(book["author"])
+
+    # authors with more than 1 read
     most_common_authors = authors.most_common(n_authors)
+    most_common_authors = [a for a in most_common_authors if a[1] > 1]
+
+    if len(most_common_authors) == 0:
+        most_common_authors = authors.most_common(n_authors)
+    else:
+        n_authors = len(most_common_authors)
 
     gap = 0.0125
     ax.text(left, top, f"Top {n_authors} authors",
