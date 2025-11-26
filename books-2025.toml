@@ -467,3 +467,23 @@ finished = 2025-11-14
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.paved-paradise]
+title = "Paved Paradise"
+author = "Henry Grabar"
+format = "text"
+genres = ["non-fiction"]
+finished = 2025-11-22
+media = "paper"
+via = "own"
+grade = "B+"
+
+[books.the-night-manager]
+title = "The Night Manager"
+author = "John le Carré"
+format = "text"
+genres = ["spy"]
+finished = 2025-11-25
+media = "ebook"
+via = "Libby"
+grade = "A"
