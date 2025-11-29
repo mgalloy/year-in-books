@@ -271,7 +271,18 @@ def display_barplot(fig, catalog, styles, attribute,
     for tick in ax.get_xticklabels():
         tick.set_horizontalalignment("right")
         tick.set_rotation(45)
-    ax.yaxis.set_major_locator(ticker.MultipleLocator(5))
+
+    max_ticks = 5
+    tick_increment = 5
+    max_value = max(attrs.values())
+    n_ticks = max_value // tick_increment
+    print(f"{tick_increment=}")
+    while n_ticks > max_ticks:
+        tick_increment += 5
+        n_ticks = max_value // tick_increment
+        print(f"{tick_increment=}")
+
+    ax.yaxis.set_major_locator(ticker.MultipleLocator(tick_increment))
 
     fig.add_axes(ax)
 
