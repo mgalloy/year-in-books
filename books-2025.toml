@@ -487,3 +487,13 @@ finished = 2025-11-25
 media = "ebook"
 via = "Libby"
 grade = "A"
+
+[books.between-the-billboards]
+title = "Between the Billboards"
+author = "Owen D. Pomery"
+format = "graphic"
+genres = ["fiction", "non-fiction"]
+finished = 2025-11-29
+media = "paper"
+via = "own"
+grade = "A"
