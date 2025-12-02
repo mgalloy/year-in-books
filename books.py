@@ -276,7 +276,6 @@ def display_barplot(fig, catalog, styles, attribute,
     tick_increment = 5
     max_value = max(attrs.values())
     n_ticks = max_value // tick_increment
-    print(f"{tick_increment=}")
     while n_ticks > max_ticks:
         tick_increment += 5
         n_ticks = max_value // tick_increment
