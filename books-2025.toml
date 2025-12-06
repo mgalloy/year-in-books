@@ -494,6 +494,26 @@ author = "Owen D. Pomery"
 format = "graphic"
 genres = ["fiction", "non-fiction"]
 finished = 2025-11-29
+media = "ebook"
+via = "own"
+grade = "A"
+
+[books.victory-point]
+title = "Victory Point"
+author = "Owen D. Pomery"
+format = "graphic"
+genres = ["fiction"]
+finished = 2025-12-02
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.the-tainted-cup]
+title = "The Tainted Cup"
+author = "Robert Jackson Bennett"
+format = "text"
+genres = ["fantasy", "mystery"]
+finished = 2025-12-06
+media = "ebook"
+via = "Libby"
+grade = "A-"
