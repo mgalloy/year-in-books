@@ -279,7 +279,6 @@ def display_barplot(fig, catalog, styles, attribute,
     while n_ticks > max_ticks:
         tick_increment += 5
         n_ticks = max_value // tick_increment
-        print(f"{tick_increment=}")
 
     ax.yaxis.set_major_locator(ticker.MultipleLocator(tick_increment))
 
