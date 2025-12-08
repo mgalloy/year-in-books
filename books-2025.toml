@@ -517,3 +517,13 @@ finished = 2025-12-06
 media = "ebook"
 via = "Libby"
 grade = "A-"
+
+[books.british-ice]
+title = "British Ice"
+author = "Owen D. Pomery"
+format = "graphic"
+genres = ["fiction"]
+finished = 2025-12-06
+media = "paper"
+via = "own"
+grade = "A"
