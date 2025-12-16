@@ -527,3 +527,13 @@ finished = 2025-12-06
 media = "paper"
 via = "own"
 grade = "A"
+
+[books.the-sequel]
+title = "The Sequel"
+author = "Jean Hanff Korelitz"
+format = "text"
+genres = ["fiction"]
+finished = 2025-12-15
+media = "ebook"
+via = "Libby"
+grade = "A-"
