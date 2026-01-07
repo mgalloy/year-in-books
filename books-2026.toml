@@ -1,0 +1,19 @@
+[books.a-drop-of-corruption]
+title = "A Drop of Corruption"
+author = "Robert Jackson Bennett"
+format = "text"
+genres = ["fantasy", "mystery"]
+finished = 2026-01-01
+media = "ebook"
+via = "Libby"
+grade = "A-"
+
+[books.life-after-cars]
+title = "Life After Cars"
+author = ["Sarah Goodyear", "Doug Gordon", "Aaron Naparstek"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-01-01
+media = "paper"
+via = "own"
+grade = "A-"
