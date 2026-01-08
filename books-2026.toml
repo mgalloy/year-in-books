@@ -7,6 +7,7 @@ finished = 2026-01-01
 media = "ebook"
 via = "Libby"
 grade = "A-"
+pages = 458
 
 [books.life-after-cars]
 title = "Life After Cars"
@@ -17,3 +18,15 @@ finished = 2026-01-01
 media = "paper"
 via = "own"
 grade = "A-"
+pages = 233
+
+[books.built-from-broken]
+title = "Built from Broken"
+author = "Scott Hogan"
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-01-07
+media = "paper"
+via = "own"
+grade = "A"
+pages = 319
