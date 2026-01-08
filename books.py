@@ -44,7 +44,9 @@ def print_catalog(catalog):
         book_id, book = b
         title = book["title"]
         author = book["author"] if type(book["author"]) == str else ', '.join(book["author"])
-        print(f"{i+1}. *{title}* by {author}")
+        n_pages = book["pages"] if "pages" in book else 0
+        pages = f"[{n_pages} pages]" if n_pages > 0 else ""
+        print(f"{i+1}. *{title}* by {author} {pages}")
 
 
 def display_background(fig, ax, catalog, styles):
@@ -74,7 +76,7 @@ def display_title(ax, catalog, styles, year, right=0.9, top=0.9):
     ax.text(right, top, f"Year in Books {year}",
             fontsize=28, fontweight="bold", color=styles["title_color"],
             horizontalalignment="right", **styles["font"])
-    ax.text(right, top - gap, "Michael Galloy",
+    ax.text(right, top - 1.1 * gap, "Michael Galloy",
             fontsize=20, color=styles["heading_color"],
             horizontalalignment="right", **styles["font"])
 
@@ -88,6 +90,15 @@ def display_number(ax, catalog, styles, left=0.15, top=0.85):
     ax.text(left, top - gap, "total books",
             fontsize=18, color=styles["heading_color"],
             horizontalalignment="center", **styles["font"])
+    n_pages = 0
+    for book_id, book in catalog["books"].items():
+        if "pages" in book:
+            n_pages += book["pages"]
+    if n_pages > 0:
+        ax.text(left, top - 1.8 * gap, f"{n_pages:,d} pages",
+                fontsize=12, color=styles["heading_color"],
+                horizontalalignment="center", **styles["font"])
+
 
 
 def display_authors(ax, catalog, styles, n_authors=10, left=0.575, width=0.325, top=0.5):
