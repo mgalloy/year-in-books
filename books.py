@@ -144,8 +144,10 @@ def display_weeks_histogram(fig, catalog, styles, left=0.1, width=0.8, bottom=0.
 
     ax = plt.Axes(fig, [left, bottom, width, height])
     ax.set_facecolor("#ffffff00")
-    n_weeks = max([52, max(weeks)])
-    n, bins, patches = ax.hist(weeks, bins=n_weeks, range=(1, n_weeks))
+    start_week = min([1, min(weeks)])
+    end_week = max([52, max(weeks)])
+    n_weeks = end_week - start_week + 1
+    n, bins, patches = ax.hist(weeks, bins=n_weeks, range=(start_week, end_week))
     for i, b in zip(n, bins):
         if i > 0:
             ax.text(b + 0.5, i + 0.5, f"{i:.0f}",
