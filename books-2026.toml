@@ -52,3 +52,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 256
+
+[books.on-the-shortness-of-life]
+title = "On the Shortness of Life"
+author = "Seneca"
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-01-22
+media = "paper"
+via = "own"
+grade = "B"
+pages = 147
