@@ -63,3 +63,36 @@ media = "paper"
 via = "own"
 grade = "B"
 pages = 147
+
+[books.reconstruction]
+title = "Reconstruction"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2026-01-26
+media = "paper"
+via = "Boulder Public Library"
+grade = "B+"
+pages = 352
+
+[books.the-longevity-diet]
+title = "The Longevity Diet"
+author = "Valter Longo"
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-02-01
+media = "paper"
+via = "own"
+grade = "B+"
+pages = 218
+
+[books.what-we-can-know]
+title = "What We Can Know"
+author = "Ian McEwan"
+format = "text"
+genres = ["fiction"]
+finished = 2026-02-08
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 338
