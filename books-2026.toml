@@ -96,3 +96,14 @@ media = "ebook"
 via = "Libby"
 grade = "A-"
 pages = 338
+
+[books.killed-by-a-traffic-engineer]
+title = "Killed by a Traffic Engineer"
+author = "Wes Marshall"
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-03-02
+media = "paper"
+via = "own"
+grade = "A+"
+pages = 372
