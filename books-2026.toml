@@ -107,3 +107,25 @@ media = "paper"
 via = "own"
 grade = "A+"
 pages = 372
+
+[books.the-incandescent]
+title = "The Incandescent"
+author = "Emily Tesh"
+format = "text"
+genres = ["fantasy"]
+finished = 2026-03-08
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 432
+
+[books.dungeon-crawler-carl]
+title = "Dungeon Crawler Carl"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy"]
+finished = 2026-03-17
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 480
