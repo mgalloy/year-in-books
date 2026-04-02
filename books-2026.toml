@@ -129,3 +129,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 480
+
+[books.carls-doomsday-scenario]
+title = "Carl's doomsday Scenario"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy"]
+finished = 2026-03-23
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 528
