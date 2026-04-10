@@ -128,10 +128,10 @@ finished = 2026-03-17
 media = "ebook"
 via = "Libby"
 grade = "B+"
-pages = 480
+pages = 444
 
 [books.carls-doomsday-scenario]
-title = "Carl's doomsday Scenario"
+title = "Carl's Doomsday Scenario"
 author = "Matt Dinniman"
 format = "text"
 genres = ["fantasy"]
@@ -139,4 +139,15 @@ finished = 2026-03-23
 media = "ebook"
 via = "Libby"
 grade = "B+"
-pages = 528
+pages = 362
+
+[books.the-dungeon-anarchists-cookbook]
+title = "The Dungeon Anarchist's Cookbook"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy"]
+finished = 2026-04-02
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 532
