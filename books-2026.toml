@@ -162,3 +162,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 584
+
+[books.the-butchers-masquerade]
+title = "The Butcher's Masquerade"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2026-04-29
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 730
