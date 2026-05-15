@@ -173,3 +173,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 730
+
+[books.to-those-who-speak]
+title = "To Those Who Speak"
+author = "Luke Adam Hawker"
+format = "graphic"
+genres = ["non-fiction"]
+finished = 2026-05-14
+media = "paper"
+via = "own"
+grade = "A+"
+pages = 80
