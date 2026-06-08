@@ -184,3 +184,25 @@ media = "paper"
 via = "own"
 grade = "A+"
 pages = 80
+
+[books.the-eye-of-the-bedlam-bride]
+title = "The Eye of the Bedlam Bride"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2026-05-19
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 692
+
+[books.this-inevitable-ruin]
+title = "This Inevitable Ruin"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2026-06-08
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 722
