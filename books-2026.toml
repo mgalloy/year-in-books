@@ -206,3 +206,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 722
+
+[books.a-parade-of-horribles]
+title = "A Parade of Horribles"
+author = "Matt Dinniman"
+format = "text"
+genres = ["fantasy", "science fiction"]
+finished = 2026-06-16
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 624
