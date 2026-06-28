@@ -217,3 +217,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 624
+
+[books.soldier-sailor]
+title = "Soldier Sailor"
+author = "Claire Kilroy"
+format = "text"
+genres = ["fiction"]
+finished = 2026-06-20
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 240
