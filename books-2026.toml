@@ -228,3 +228,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 240
+
+[books.the-princess-bridge]
+title = "The Princess Bride"
+author = "William Goldman"
+format = "text"
+genres = ["fantasy"]
+finished = 2026-06-28
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 501
