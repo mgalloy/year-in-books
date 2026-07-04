@@ -239,3 +239,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 501
+
+[books.platform-decay]
+title = "Platform Decay"
+author = "Martha Wells"
+format = "text"
+genres = ["fantasy"]
+finished = 2026-07-03
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 256
