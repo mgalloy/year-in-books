@@ -250,3 +250,25 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 256
+
+[books.a-city-on-mars]
+title = "A City on Mars"
+author = ["Kelly Weinersmith", "Zach Weinersmith"]
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-07-08
+media = "paper"
+via = "own"
+grade = "A-"
+pages = 388
+
+[books.the-keeper-of-lost-causes]
+title = "The Keeper of Lost Causes"
+author = "Jussi Adler-Olsen"
+format = "text"
+genres = ["thriller"]
+finished = 2026-07-13
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 416
