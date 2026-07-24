@@ -272,3 +272,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 416
+
+[books.yesteryear]
+title = "Yesteryear"
+author = "Caro Claire Burke"
+format = "text"
+genres = ["fiction"]
+finished = 2026-07-24
+media = "ebook"
+via = "Libby"
+grade = "A+"
+pages = 592
