@@ -283,3 +283,14 @@ media = "ebook"
 via = "Libby"
 grade = "A+"
 pages = 592
+
+[books.enshittification]
+title = "Enshittification"
+author = "Cory Doctorow"
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-08-01
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 352
