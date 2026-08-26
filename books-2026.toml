@@ -294,3 +294,36 @@ media = "ebook"
 via = "Libby"
 grade = "A-"
 pages = 352
+
+[books.parable-of-the-sower]
+title = "Parable of the Sower"
+author = ["Octavia Butler"]
+format = "text"
+genres = ["science fiction"]
+finished = 2026-08-05
+media = "paper"
+via = "own"
+grade = "A"
+pages = 329
+
+[books.down-cemetery-road]
+title = "Down Cemetery Road"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2026-08-13
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 384
+
+[books.a-trade-of-blood]
+title = "A Trade of Blood"
+author = "Robert Jackson Bennett"
+format = "text"
+genres = ["fantasy", "mystery"]
+finished = 2026-08-21
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 400
