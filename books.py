@@ -4,13 +4,14 @@ import argparse
 import datetime
 import collections
 import math
+import sys
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import matplotlib.dates as mdates
 from matplotlib import ticker
 import numpy as np
-import toml
+import tomllib
 
 
 HEADER = r"""\documentclass[8pt,letterpaper]{extarticle}
@@ -36,7 +37,12 @@ def get_styles():
 
 
 def parse_catalog(input_filename):
-    return(toml.load(input_filename))
+    try:
+        with open(input_filename, "rb") as fp:
+            return tomllib.load(fp)
+    except tomllib.TOMLDecodeError as e:
+        print(e)
+        sys.exit(1)
 
 
 def print_catalog(catalog):
