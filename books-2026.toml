@@ -327,3 +327,14 @@ media = "ebook"
 via = "Libby"
 grade = "A-"
 pages = 400
+
+[books.parable-of-the-talents]
+title = "Parable of the Talent"
+author = ["Octavia Butler"]
+format = "text"
+genres = ["science fiction"]
+finished = 2026-08-27
+media = "paper"
+via = "own"
+grade = "A+"
+pages = 424
