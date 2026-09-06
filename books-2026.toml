@@ -350,3 +350,13 @@ via = "own"
 grade = "B-"
 pages = 248
 
+[books.the-last-voice-you-hear]
+title = "The Last Voice You Hear"
+author = ["Mick Herron"]
+format = "text"
+genres = ["mystery"]
+finished = 2026-09-03
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 304
