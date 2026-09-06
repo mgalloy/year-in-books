@@ -334,7 +334,19 @@ author = ["Octavia Butler"]
 format = "text"
 genres = ["science fiction"]
 finished = 2026-08-27
-media = "paper"
-via = "own"
+media = "ebook"
+via = "Libby"
 grade = "A+"
 pages = 424
+
+[books.indiana-jones-and-the-peril-at-delphi]
+title = "Indiana Jones and the Peril at Delphi"
+author = ["Rob MacGregor"]
+format = "text"
+genres = ["pulp fiction"]
+finished = 2026-09-03
+media = "paper"
+via = "own"
+grade = "B-"
+pages = 248
+
