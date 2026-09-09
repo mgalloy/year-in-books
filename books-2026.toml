@@ -360,3 +360,15 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 304
+
+[books.the-nice-house-on-the-lake-vol-1]
+title = "The Nice House on the Lake, Vol. 1"
+author = ["James Tynion"]
+format = "graphic"
+genres = ["science fiction"]
+finished = 2026-09-07
+media = "ebook"
+via = "Hoopla"
+grade = "A-"
+pages = 200
+
