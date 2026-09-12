@@ -382,3 +382,14 @@ media = "ebook"
 via = "Hoopla"
 grade = "A-"
 pages = 176
+
+[books.the-nice-house-by-the-sea-vol-1]
+title = "The Nice House by the Sea, Vol. 1"
+author = ["James Tynion"]
+format = "graphic"
+genres = ["science fiction"]
+finished = 2026-09-11
+media = "ebook"
+via = "Hoopla"
+grade = "A-"
+pages = 208
