@@ -393,3 +393,14 @@ media = "ebook"
 via = "Hoopla"
 grade = "A-"
 pages = 208
+
+[books.automatic-noodle]
+title = "Automatic Noodle"
+author = ["Annalee Newitz"]
+format = "text"
+genres = ["science fiction"]
+finished = 2026-09-12
+media = "ebook"
+via = "Libby"
+grade = "B+"
+pages = 168
