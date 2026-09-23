@@ -404,3 +404,14 @@ media = "ebook"
 via = "Libby"
 grade = "B+"
 pages = 168
+
+[books.there-is-no-antimemetics-division]
+title = "There is No Antimemetics Division"
+author = ["qntm"]
+format = "text"
+genres = ["science fiction"]
+finished = 2026-09-16
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 288
