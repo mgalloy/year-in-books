@@ -415,3 +415,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 288
+
+[books.the-high-desert]
+title = "The High Desert"
+author = "James Spooner"
+format = "graphic"
+genres = ["fiction"]
+finished = 2026-09-22
+media = "paper"
+via = "Boulder Public Library"
+grade = "B"
+pages = 361
