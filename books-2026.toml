@@ -437,3 +437,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 362
+
+[books.for-services-rendered]
+title = "For Services Rendered"
+author = ["Will Thomas"]
+format = "text"
+genres = ["mystery"]
+finished = 2026-09-28
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 312
