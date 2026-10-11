@@ -448,3 +448,16 @@ media = "ebook"
 via = "Libby"
 grade = "A-"
 pages = 312
+
+[books.exit-party]
+title = "Exit Party"
+author = ["Emily St. John Mandel"]
+format = "text"
+genres = ["science fiction"]
+finished = 2026-10-04
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 307
+
+
