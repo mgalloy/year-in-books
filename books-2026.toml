@@ -460,4 +460,13 @@ via = "Libby"
 grade = "A"
 pages = 307
 
-
+[books.we-chase-shadows]
+title = "We Chase Shadows"
+author = ["Richard Osman"]
+format = "text"
+genres = ["mystery"]
+finished = 2026-10-09
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 464
