@@ -470,3 +470,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 464
+
+[books.indiana-jones-and-the-dance-of-the-giants]
+title = "Indiana Jones and the Dance of the Giants"
+author = ["Rob MacGregor"]
+format = "text"
+genres = ["pulp fiction"]
+finished = 2026-10-15
+media = "paper"
+via = "own"
+grade = "B-"
+pages = 230
