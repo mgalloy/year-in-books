@@ -481,3 +481,14 @@ media = "paper"
 via = "own"
 grade = "B-"
 pages = 230
+
+[books.the-nice-house-by-the-sea-vol-2]
+title = "The Nice House by the Sea, Vol. 2"
+author = ["James Tynion"]
+format = "graphic"
+genres = ["science fiction"]
+finished = 2026-10-15
+media = "ebook"
+via = "Hoopla"
+grade = "A-"
+pages = 208
