@@ -492,3 +492,14 @@ media = "ebook"
 via = "Hoopla"
 grade = "A-"
 pages = 208
+
+[books.why-we-die]
+title = "Why We Die"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2026-10-18
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 324
