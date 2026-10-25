@@ -503,3 +503,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 324
+
+[books.squire]
+title = "Squire"
+author = ["Nadia Shammas", "Sara Alfageeh"]
+format = "graphic"
+genres = ["fiction"]
+finished = 2026-10-22
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 336
