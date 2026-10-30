@@ -514,3 +514,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 336
+
+[books.theo-of-golden]
+title = "Theo of Golden"
+author = "Allen Levi"
+format = "text"
+genres = ["fiction"]
+finished = 2026-10-29
+media = "ebook"
+via = "Libby"
+grade = "C+"
+pages = 400
