@@ -525,3 +525,14 @@ media = "ebook"
 via = "Libby"
 grade = "C+"
 pages = 400
+
+[books.dolphin-junction]
+title = "Dolphin Junction"
+author = "Mick Herron"
+format = "text"
+genres = ["spy"]
+finished = 2026-11-04
+media = "ebook"
+via = "Libby"
+grade = "A-"
+pages = 313
