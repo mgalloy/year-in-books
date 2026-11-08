@@ -536,3 +536,14 @@ media = "ebook"
 via = "Libby"
 grade = "A-"
 pages = 313
+
+[books.spirals-and-other-stories]
+title = "Spirals and Other Stories"
+author = "Aidan Koch"
+format = "graphic"
+genres = ["fiction"]
+finished = 2026-11-07
+media = "paper"
+via = "Boulder Public Library"
+grade = "C-"
+pages = 208
