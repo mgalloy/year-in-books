@@ -558,3 +558,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 306
+
+[books.vinland-saga-book-1]
+title = "Vinland Saga Book 1"
+author = "Makoto Yukimura"
+format = "graphic"
+genres = ["fiction"]
+finished = 2026-11-14
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
+pages = 454
