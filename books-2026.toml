@@ -569,3 +569,14 @@ media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
 pages = 454
+
+[books.thinking-fast-and-slow]
+title = "Thinking, Fast and Slow"
+author = "Daniel Kahneman"
+format = "text"
+genres = ["non-fiction"]
+finished = 2026-11-11
+media = "ebook"
+via = "Libby"
+grade = "A"
+pages = 401
