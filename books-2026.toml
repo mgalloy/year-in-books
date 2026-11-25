@@ -580,3 +580,14 @@ media = "ebook"
 via = "Libby"
 grade = "A"
 pages = 401
+
+[books.vinland-saga-book-2]
+title = "Vinland Saga Book 2"
+author = "Makoto Yukimura"
+format = "graphic"
+genres = ["fiction"]
+finished = 2026-11-23
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
+pages = 420
