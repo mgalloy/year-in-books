@@ -591,3 +591,14 @@ media = "paper"
 via = "Boulder Public Library"
 grade = "A-"
 pages = 420
+
+[books.indiana-jones-and-the-seven-veils]
+title = "Indiana Jones and the Seven Veils"
+author = ["Rob MacGregor"]
+format = "text"
+genres = ["pulp fiction"]
+finished = 2026-11-25
+media = "paper"
+via = "own"
+grade = "B-"
+pages = 275
