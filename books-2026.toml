@@ -602,3 +602,14 @@ media = "paper"
 via = "own"
 grade = "B-"
 pages = 275
+
+[books.vinland-saga-book-3]
+title = "Vinland Saga Book 3"
+author = "Makoto Yukimura"
+format = "graphic"
+genres = ["fiction"]
+finished = 2026-11-27
+media = "paper"
+via = "Boulder Public Library"
+grade = "A-"
+pages = 433
